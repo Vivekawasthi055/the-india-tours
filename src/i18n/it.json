@@ -1,0 +1,163 @@
+{
+  "nav": {
+    "home": "Home",
+    "destinations": "Destinazioni",
+    "tours": "Tour",
+    "about": "Chi Siamo",
+    "contact": "Contatto"
+  },
+  "home": {
+    "title": "Scopri l'Incredibile India",
+    "subtitle": "Vivi cultura, natura e avventura come mai prima",
+    "explore": "Esplora Tour"
+  },
+  "tours": {
+    "heading": "Tour Popolari dell'India",
+    "details": "Vedi Dettagli",
+    "itinerary": "Vedi Itinerario Completo",
+    "contact": "Contattaci per il Prezzo",
+    "customize": "Pianifica il tuo viaggio perfetto in India con noi (Per un tour personalizzato, chatta con il nostro esperto)"
+  },
+  "itinerary": {
+    "title": "Itinerario del Tour",
+    "day": "Giorno"
+  },
+  "toursData": {
+    "goldenTriangle": {
+      "title": "Tour del Triangolo d’Oro",
+      "duration": "5 Giorni",
+      "desc": "Scopri storia, cultura e attrazioni iconiche di Delhi, Agra e Jaipur — dai siti patrimonio mondiale dell’UNESCO ai palazzi e fortezze reali. 📌DELHI - AGRA - JAIPUR"
+    },
+    "jaipurPushkar": {
+      "title": "Tour Jaipur – Pushkar",
+      "duration": "4 Giorni",
+      "desc": "Vivi il patrimonio reale di Jaipur e il fascino spirituale di Pushkar in questo tour di 4 giorni con palazzi, fortezze, templi, laghi e mercati colorati. 📌JAIPUR - PUSHKAR"
+    },
+    "royalRajasthan": {
+      "title": "Tour Reale del Rajasthan",
+      "duration": "12 Giorni",
+      "desc": "Esplora maestose fortezze, palazzi, deserti, templi, laghi e la vivace cultura del Rajasthan in 12 giorni indimenticabili. 📌DELHI - AGRA - JAIPUR - BIKANER - JAISALMER - JODHPUR - UDAIPUR - AJMER/PUSHKAR"
+    },
+    "lehLadakh": {
+      "title": "Tour Leh–Ladakh",
+      "duration": "5 Giorni",
+      "desc": "Vivi paesaggi mozzafiato, laghi in alta quota, monasteri e cultura unica di Leh e Ladakh. 📌LEH - LADAKH"
+    },
+    "delhiAgra": {
+      "title": "Tour Delhi–Agra",
+      "duration": "3 Giorni",
+      "desc": "Scopri le meraviglie storiche, l'architettura moghul, templi e attrazioni culturali di Delhi e Agra. 📌DELHI - AGRA"
+    },
+    "diwaliCultural": {
+      "title": "Tour Culturale Speciale Diwali",
+      "duration": "3 Giorni",
+      "desc": "Festeggia il Diwali con una famiglia indiana locale e vivi tradizioni autentiche, rituali, cucina festiva e il calore culturale della festa più importante dell’India. 📌TOUR CITTÀ INDIANA – ESPERIENZA CON FAMIGLIA LOCALE"
+    },
+    "holiCultural": {
+      "title": "Tour Culturale Speciale Holi",
+      "duration": "3 Giorni",
+      "desc": "Festeggia il Festival dei Colori con una famiglia indiana locale e vivi gioia, tradizioni, musica, colori naturali e cucina festiva in un’autentica esperienza culturale. 📌TOUR CITTÀ INDIANA – ESPERIENZA HOLI CON FAMIGLIA LOCALE"
+    }
+  },
+
+  "destinations": {
+    "title": "Esplora le Destinazioni",
+    "subtitle": "Scopri l’India attraverso regioni, cultura ed esperienze",
+    "north": "India del Nord",
+    "south": "India del Sud",
+
+    "rajasthan": {
+      "title": "Rajasthan",
+      "desc": "Palazzi reali, deserti e ricca eredità"
+    },
+    "ladakh": {
+      "title": "Ladakh",
+      "desc": "Montagne, avventura e monasteri"
+    },
+    "kerala": {
+      "title": "Kerala",
+      "desc": "Backwaters, colline e natura verde"
+    },
+    "goa": {
+      "title": "Goa",
+      "desc": "Spiagge, vita notturna e relax"
+    },
+
+    "ctaTitle": "Pronto a Esplorare l’India?",
+    "ctaText": "Scegli la tua destinazione e pianificheremo il viaggio perfetto.",
+    "ctaBtn": "Vedi Tour"
+  },
+  "about": {
+    "title": "Chi Siamo - Incredible Trails India",
+    "description": "Creiamo esperienze di viaggio indimenticabili in tutta l'India.",
+    "missionTitle": "La Nostra Missione",
+    "missionText": "Offrire viaggi autentici e significativi.",
+    "promiseTitle": "La Nostra Promessa",
+    "promiseText": "Servizio affidabile e tour personalizzati.",
+    "whyTitle": "Perché Sceglierci",
+    "whyText": "Team esperto e supporto completo."
+  },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Pianifica il tuo tour perfetto in India",
+    "name": "Il tuo nome",
+    "email": "La tua email",
+    "country": "Paese",
+    "message": "Il tuo messaggio",
+    "send": "Invia Richiesta",
+    "whatsapp": "Chatta su WhatsApp",
+    "phone": "Telefono",
+    "emailLabel": "Email"
+  },
+  "footer": { "text": "Esplora l'India | Viaggia con Fiducia" },
+
+  "goldenTriangle": {
+    "day1": "Arrivo a Delhi. Trasferimento dall’aeroporto/stazione al tuo hotel. Dopo pranzo visita di Delhi Vecchia e Nuova: India Gate, Raj Ghat, Jantar Mantar, Residenze Presidenziali e mercati locali. Pernottamento a Delhi.",
+    "day2": "Partenza per Agra. Sosta a Sikandra per visitare il mausoleo dell’Imperatore Akbar. Check‑in in hotel. Visita nel pomeriggio al meraviglioso Taj Mahal e ai laboratori locali di intarsio di marmo. Pernottamento ad Agra.",
+    "day3": "Visita mattutina al Forte di Agra, imponente fortezza di arenaria rossa. Poi partenza verso Jaipur via Fatehpur Sikri per ammirare il Buland Darwaza. Arrivo e check‑in a Jaipur. Pernottamento a Jaipur.",
+    "day4": "Giornata completa di visite a Jaipur: Forte Amber con opzionale passeggiata su elefante o jeep, City Palace e museo, osservatorio Jantar Mantar, Jal Mahal (stop foto) e Hawa Mahal. Pernottamento a Jaipur.",
+    "day5": "Check‑out dopo colazione e trasferimento alla stazione ferroviaria o aeroporto di Jaipur per il viaggio di ritorno."
+  },
+  "jaipurPushkar": {
+    "day1": "Arrivo a Jaipur. Trasferimento dall’aeroporto/stazione di Delhi all’hotel. Dopo il check-in, visita City Palace, Chandra Mahal, Shri Govind Deo Temple e City Palace Museum. Esplora Jantar Mantar, il più grande osservatorio di pietra costruito dal Maharaja Jai Singh. Pernottamento a Jaipur.",
+    "day2": "Giornata completa di visite a Jaipur. Visita al Forte Amber a 11 km da Jaipur. Sosta fotografica a Hawa Mahal. Esplora le attrazioni storiche e poi shopping nei mercati vivaci. Passeggiata serale in città e visita al Tempio Laxmi Narayan. Pernottamento a Jaipur.",
+    "day3": "Dopo colazione, partenza per Pushkar via Ajmer (134 km). Visita all'Ajmer Sharif Dargah lungo il percorso. Arrivo a Pushkar e check-in in hotel. Visita al Lago Pushkar con bagno sacro, esplora il Tempio Brahma e altri templi architettonici. Visita serale al Giardino delle Rose. Pernottamento a Pushkar.",
+    "day4": "Dopo colazione, check-out e trasferimento all’aeroporto/stazione di Delhi per il viaggio di ritorno."
+  },
+  "royalRajasthan": {
+    "day1": "Arrivo a Delhi stazione ferroviaria/aeroporto. Accoglienza e trasferimento in hotel. Visita Jama Masjid*, Forte Rosso*, Raj Ghat, Tomba di Humayun, Rashtrapati Bhawan*, Parlamento*, Jantar Mantar & India Gate. Pernottamento a Delhi.",
+    "day2": "Visita di mezza giornata a Delhi: Qutub Minar, Tempio del Loto & India Gate. Partenza per Agra (216 km), sosta a Sikandara. Check-in in hotel. Pernottamento ad Agra.",
+    "day3": "Visita al Taj Mahal. Partenza per Jaipur via Fatehpur Sikri (245 km). Sosta al Buland Darwaza. Check-in in hotel a Jaipur. Pernottamento a Jaipur.",
+    "day4": "Giornata completa a Jaipur: Forte & Palazzo Amber, Cenotafi Gaitore (vista frontale), sosta fotografica Jal Mahal, City Palace & Museo, Jantar Mantar, sosta fotografica Hawa Mahal. Pomeriggio libero. Pernottamento a Jaipur.",
+    "day5": "Trasferimento a Bikaner (330 km). Visita al più grande allevamento di cammelli dell’Asia. Check-in in hotel. Pernottamento a Bikaner.",
+    "day6": "Mezza giornata a Bikaner: Forte Junagarh, Anup Mahal, Gaj Mandir, Sheesh Mahal, Museo Prachina, Palazzo Lalgarh. Partenza per Jaisalmer (333 km). Sosta al Museo di Guerra di Jaisalmer. Pernottamento a Jaisalmer.",
+    "day7": "Giornata completa a Jaisalmer: Forte Jaisalmer (Forte Dorato), Patwon-ki-Haveli, Nathmal-ki-Haveli, Salim Singh-ki-Haveli, Lago Gadisar. Passeggiata in cammello sulle dune di Sam al tramonto. Pernottamento a Jaisalmer.",
+    "day8": "Trasferimento a Jodhpur (285 km). Check-in in hotel. Pernottamento a Jodhpur.",
+    "day9": "Mezza giornata a Jodhpur: Palazzo Umaid Bhawan, Forte Mehrangarh, Jaswant Thada. Partenza per Udaipur (260 km). Giro in barca sul Lago Pichola (costo proprio) per ammirare il tramonto. Pernottamento a Udaipur.",
+    "day10": "Tour di Udaipur: Lago Fateh Sagar, Memorial Maharana Pratap, sosta giardino Nehru, Sehelion-Ki-Bari, Sukhadia Circle, Museo Bhartiya Lok Kala, City Palace, Tempio Jagdish, Gulab Bagh. Pernottamento a Udaipur.",
+    "day11": "Partenza per Ajmer & Pushkar (287 km). Visita Ajmer Sharif Dargah, Adhai-Din-Ka Jhonpra, Lago Ana Sagar. Esplora Lago Pushkar, Tempio Brahma e altri templi/ghat. Pernottamento ad Ajmer/Pushkar.",
+    "day12": "Check-out e trasferimento alla stazione ferroviaria/aeroporto di Jaipur per il viaggio di ritorno."
+  },
+  "lehLadakh": {
+    "day1": "Arrivo all'aeroporto di Leh, ricevuti dal nostro rappresentante e trasferimento in hotel. Riposo completo. Cena e pernottamento in hotel a Leh.",
+    "day2": "Visita locale di Leh: Hall of Fame (museo di guerra), Monastero Spituk (7 km) fondato nell'XI secolo, Gurudwara Pathar Sahib, Magnetic Hill e Sangam (confluenza dei fiumi Indo e Zanskar, 35 km). Cena e pernottamento in hotel a Leh.",
+    "day3": "Colazione presto e viaggio al Lago Pangong (14.500 ft) attraverso il Passo Changla (17.350 ft). Ammira le viste spettacolari di questo lago salmastro blu, circa 134 km di lunghezza e 5-6 km di larghezza, con il 75% nel confine Indo-Cinese. Pranzo al sacco opzionale. Ritorno a Leh. Cena e pernottamento in hotel.",
+    "day4": "Visita al Palazzo Shey, Monastero Thiksey e Monastero Hemis (XV–XVII secolo). Esplora murales, affreschi e statue all'interno dei templi principali. Ritorno a Leh. Cena e pernottamento in hotel.",
+    "day5": "Trasferimento mattutino all'aeroporto di Leh per il viaggio successivo."
+  },
+  "delhiAgra": {
+    "day1": "Arrivo all'aeroporto di Delhi. Trasferimento in hotel. Tour di un giorno a Delhi visitando Raj Ghat, Tomba di Humayun, Tempio del Loto (Bahai), Qutub Minar, Rashtrapati Bhawan*, Parlamento*, Jantar Mantar & India Gate. Pernottamento a Delhi.",
+    "day2": "Dopo colazione, viaggio verso Agra via Mathura e Vrindavan. Check-in in hotel. Visita al famoso Taj Mahal, costruito da Shah Jahan per Mumtaz Mahal. Pernottamento ad Agra.",
+    "day3": "Dopo colazione, visita al Forte di Agra. Successivamente, trasferimento all'aeroporto di Delhi per il viaggio successivo."
+  },
+  "diwaliCultural": {
+    "day1": "Arrivo in aeroporto, accoglienza dal nostro rappresentante e trasferimento in hotel. Check-in e relax. Successivamente pranzo o cena in hotel o ristorante locale. Visita della città con monumenti famosi, mercati locali e strade illuminate per il Diwali. Rientro in hotel. Pernottamento.",
+    "day2": "Dopo la colazione, celebrazione del Diwali con una famiglia indiana locale. Partecipazione a rituali tradizionali, accensione delle diyas, decorazioni festive e scambi culturali. Tutti i pasti inclusi con la famiglia ospitante. Pernottamento in hotel.",
+    "day3": "Dopo la colazione, check-out e trasferimento in aeroporto per il viaggio successivo."
+  },
+  "holiCultural": {
+    "day1": "Arrivo in aeroporto, accoglienza e trasferimento in hotel. Check-in e relax. Pranzo o cena in hotel o ristorante locale. In serata visita della città con mercati e strade colorate in preparazione al Holi. Rientro in hotel. Pernottamento.",
+    "day2": "Dopo colazione, celebrazione del Holi con una famiglia indiana locale: colori naturali, canti tradizionali, significato culturale e interazione familiare. Tutti i pasti inclusi con la famiglia ospitante. Rientro in hotel. Pernottamento.",
+    "day3": "Dopo colazione, check-out e trasferimento in aeroporto con ricordi indimenticabili del Holi in India."
+  }
+}

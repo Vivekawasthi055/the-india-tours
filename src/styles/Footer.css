@@ -1,0 +1,11 @@
+footer {
+  width: 100%;
+  background-color: #111; /* example color */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: relative; /* ya fixed agar sticky chahiye */
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+}

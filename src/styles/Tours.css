@@ -1,0 +1,76 @@
+.tours {
+  padding: 120px 40px;
+  text-align: center;
+}
+
+.customize-card {
+  background: #f7f7f7;
+  padding: 20px 25px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin: 20px 0 40px 0;
+  flex-wrap: wrap;
+}
+
+.customize-card p {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.whatsapp-btn {
+  background: #25d366;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.whatsapp-btn:hover {
+  transform: scale(1.1);
+}
+
+.tour-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.tour-card {
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.4s;
+}
+
+.tour-card:hover {
+  transform: translateY(-12px) scale(1.03);
+}
+
+.tour-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.tour-content {
+  padding: 20px;
+}
+
+.tour-content button {
+  margin-top: 15px;
+  padding: 10px 25px;
+  background: teal;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
