@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${scroll ? "scrolled" : ""}`}>
       <Link to="/" className="logo">
-        Incredible Trailss India
+        Incredible Trails India
       </Link>
 
       <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
