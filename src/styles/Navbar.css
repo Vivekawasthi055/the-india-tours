@@ -158,3 +158,29 @@
     padding: 14px 18px;
   }
 }
+
+/* =========================
+   TABLET
+========================= */
+@media (min-width: 769px) and (max-width: 918px) {
+  .nav-links {
+    margin-right: 20px;
+    gap: 20px; /* links ke beech thoda space kam */
+  }
+
+  .language-selector {
+    gap: 4px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    max-width: 120px;
+  }
+
+  .language-selector select {
+    font-size: 0.85rem;
+    max-width: 100px;
+  }
+
+  .language-icon {
+    font-size: 1rem;
+  }
+}
