@@ -12,10 +12,7 @@ const Footer = () => {
         {/* LEFT */}
         <div className="footer-left">
           <h2>Incredible Trails India</h2>
-          <p className="footer-desc">
-            Discover authentic travel experiences across India with trusted
-            local experts and personalized journeys.
-          </p>
+          <p className="footer-desc">{t("home.subtitle")}</p>
         </div>
 
         {/* RIGHT */}
@@ -45,7 +42,7 @@ const Footer = () => {
             href="https://wa.me/919630382854"
             target="_blank"
             rel="noreferrer"
-            className="whatsapp-btn"
+            className="wsbtn whatsapp-btn"
           >
             {t("contact.whatsapp")}
           </a>

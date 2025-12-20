@@ -46,16 +46,9 @@
 }
 
 /* WHATSAPP BUTTON */
-.whatsapp-btn {
-  display: inline-block;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  background: #25d366;
-  color: rgb(243, 243, 243);
-  padding: 12px 25px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: bold;
+.wsbtn {
+  width: 133px;
+  font-size: 1rem;
 }
 
 /* DIVIDER */
@@ -82,5 +75,10 @@
 
   .footer-desc {
     margin: auto;
+  }
+
+  .wsbtn {
+    width: 120px;
+    font-size: 0.9rem;
   }
 }
