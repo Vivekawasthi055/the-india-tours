@@ -7,13 +7,15 @@ import rajasthan from "../assets/images/rajasthan.jpg";
 import kerala from "../assets/images/kerala.jpg";
 import ladakh from "../assets/images/ladakh.jpg";
 import goa from "../assets/images/goa.jpg";
+import delhi from "../assets/images/delhi.jpg";
+import up from "../assets/images/up.jpg";
+import mp from "../assets/images/mp.jpg";
 
 const Destinations = () => {
   const { t } = useContext(LanguageContext);
 
   return (
     <div className="destinations">
-      {/* Page Title */}
       <h1>{t("destinations.title")}</h1>
       <p className="dest-subtitle">{t("destinations.subtitle")}</p>
 
@@ -23,17 +25,6 @@ const Destinations = () => {
           <div className="overlay">
             <h3>{t("destinations.rajasthan.title")}</h3>
             <p>{t("destinations.rajasthan.desc")}</p>
-            <Link to="/tours" className="explore-btn">
-              {t("destinations.ctaBtn")}
-            </Link>
-          </div>
-        </div>
-
-        <div className="destination-card">
-          <img src={ladakh} alt="Ladakh" />
-          <div className="overlay">
-            <h3>{t("destinations.ladakh.title")}</h3>
-            <p>{t("destinations.ladakh.desc")}</p>
             <Link to="/tours" className="explore-btn">
               {t("destinations.ctaBtn")}
             </Link>
@@ -74,10 +65,32 @@ const Destinations = () => {
         </div>
 
         <div className="destination-card">
-          <img src={goa} alt="Goa" />
+          <img src={delhi} alt="Delhi" />
           <div className="overlay">
-            <h3>{t("destinations.goa.title")}</h3>
-            <p>{t("destinations.goa.desc")}</p>
+            <h3>{t("destinations.delhi.title")}</h3>
+            <p>{t("destinations.delhi.desc")}</p>
+            <Link to="/tours" className="explore-btn">
+              {t("destinations.ctaBtn")}
+            </Link>
+          </div>
+        </div>
+
+        <div className="destination-card">
+          <img src={up} alt="Uttar Pradesh" />
+          <div className="overlay">
+            <h3>{t("destinations.up.title")}</h3>
+            <p>{t("destinations.up.desc")}</p>
+            <Link to="/tours" className="explore-btn">
+              {t("destinations.ctaBtn")}
+            </Link>
+          </div>
+        </div>
+
+        <div className="destination-card">
+          <img src={mp} alt="Madhya Pradesh" />
+          <div className="overlay">
+            <h3>{t("destinations.mp.title")}</h3>
+            <p>{t("destinations.mp.desc")}</p>
             <Link to="/tours" className="explore-btn">
               {t("destinations.ctaBtn")}
             </Link>
@@ -85,7 +98,6 @@ const Destinations = () => {
         </div>
       </div>
 
-      {/* CTA Section */}
       <div className="dest-cta">
         <h2>{t("destinations.ctaTitle")}</h2>
         <p>{t("destinations.ctaText")}</p>

@@ -16,7 +16,9 @@
     "details": "View Details",
     "itinerary": "View Full Itinerary",
     "contact": "Contact Us for Pricing",
-    "customize": "Plan Your Perfect India Trip with Us (For a customized tour, chat with our expert)"
+
+    "customizeTitle": "Customize Your India Tour",
+    "customize": "Plan your perfect India journey with us. Chat with our travel expert for a fully customized tour."
   },
   "itinerary": {
     "title": "Tour Itinerary",
@@ -57,14 +59,17 @@
       "title": "Holi Special Cultural Tour",
       "duration": "3 Days",
       "desc": "Celebrate the Festival of Colors with a local Indian family and experience the joy, traditions, music, organic colors, and festive cuisine of Holi in an authentic cultural setting. 📌INDIAN CITY TOUR – LOCAL FAMILY HOLI EXPERIENCE"
+    },
+    "royalWedding": {
+      "title": "Royal Indian Wedding Experience Tour",
+      "duration": "7 Days",
+      "desc": "Experience a complete traditional Indian wedding with authentic rituals, vibrant celebrations, cultural immersion, local cuisine, and sightseeing — a once-in-a-lifetime cultural journey. 📌India – Traditional Wedding City Experience"
     }
   },
 
   "destinations": {
     "title": "Explore Destinations",
     "subtitle": "Discover India by regions, culture and experiences",
-    "north": "North India",
-    "south": "South India",
 
     "rajasthan": {
       "title": "Rajasthan",
@@ -81,6 +86,18 @@
     "goa": {
       "title": "Goa",
       "desc": "Beaches, nightlife and relaxation"
+    },
+    "delhi": {
+      "title": "Delhi",
+      "desc": "Historic monuments, culture and vibrant city life"
+    },
+    "up": {
+      "title": "Uttar Pradesh",
+      "desc": "Spiritual destinations, heritage and traditions"
+    },
+    "mp": {
+      "title": "Madhya Pradesh",
+      "desc": "Wildlife, heritage sites and ancient temples"
     },
 
     "ctaTitle": "Ready to Explore India?",
@@ -159,5 +176,14 @@
     "day1": "Upon arrival at the airport, our representative will warmly welcome you and assist with your transfer to the hotel. After check-in, take some time to relax and freshen up. Later, enjoy a delicious lunch or dinner at the hotel or a selected local restaurant (as per arrival time). In the evening, proceed for local city sightseeing, where you will explore major attractions, local markets, and colorful streets preparing for the Holi festival. Experience the festive atmosphere and vibrant culture of the city. After sightseeing, return to the hotel. Overnight stay at the hotel.",
     "day2": "After breakfast, prepare for a joyful and culturally enriching day. Today you will celebrate Holi with a local Indian family, offering an authentic glimpse into Indian traditions. The experience includes playing Holi with organic & safe colors, traditional Holi songs and joyful celebrations, understanding the cultural significance of Holi, and interaction with the host family in a warm, friendly environment. All meals — breakfast, lunch, and dinner — will be enjoyed with the local Indian family. Savor traditional Holi delicacies such as gujiya, thandai, festive snacks, and freshly prepared home-cooked meals. After the celebration, return to the hotel to relax and refresh. Overnight stay at the hotel.",
     "day3": "After breakfast at the hotel, check out and proceed towards the airport for your onward journey, carrying colorful memories and unforgettable experiences of celebrating Holi in India."
+  },
+  "royalWedding": {
+    "day1": "Arrival – Leisure – Traditional Dinner\n\nUpon arrival at the airport, you will be warmly welcomed by our representative and transferred to your hotel. After check-in, the rest of the day is kept free for relaxation after your journey.\n\nIf time permits, you may enjoy optional local sightseeing, exploring nearby attractions or markets at a relaxed pace.\nIn the evening, enjoy a delightful dinner at a traditional Indian restaurant, offering a perfect introduction to authentic local flavors.\n\nOvernight stay at the hotel.",
+    "day2": "City Sightseeing & Wedding Attire Shopping\n\nAfter breakfast at the hotel, proceed for a full-day local city sightseeing tour. Visit important landmarks, cultural sites, heritage areas, and local bazaars to understand the city’s lifestyle and traditions.\n\nLater, enjoy a unique experience of shopping for traditional Indian wedding attire, where you can explore colorful bridal and groom outfits, jewelry, and accessories.\nTake a break for lunch at a traditional restaurant.\n\nIn the evening, continue sightseeing or shopping before enjoying dinner at a traditional restaurant.\n\nOvernight stay at the hotel.",
+    "day3": "Wedding Mandap Ceremony\n\nAfter breakfast, the day is dedicated to the Wedding Mandap ceremony, where you will witness traditional rituals and preparations that form the foundation of an Indian wedding.\n\nEnjoy authentic local wedding-style food throughout the day, including:\n\nBreakfast\n\nLunch\n\nDinner\n\nExperience the warmth, spirituality, and customs that make Indian weddings deeply meaningful.\n\nOvernight stay at the hotel.",
+    "day4": "Haldi, Mehndi & Sangeet Celebration\n\nAfter breakfast, immerse yourself in the most colorful and joyful pre-wedding celebrations.\n\nToday’s experiences include:\n\nHaldi ceremony with traditional rituals\n\nMehndi (henna) application with beautiful designs\n\nSangeet evening with music, dance, and cultural performances\n\nAll meals — Breakfast, Lunch, and Dinner — will be traditional wedding-style food prepared locally.\n\nThis day is filled with laughter, colors, music, and cultural bonding.\n\nOvernight stay at the hotel.",
+    "day5": "Main Wedding Ceremony\n\nAfter breakfast, get ready for the most important and grand day of the tour — the Main Wedding Ceremony.\n\nWitness the full traditional Indian wedding rituals, vibrant decorations, cultural customs, and emotional moments that define an authentic Indian marriage.\n\nEnjoy complete wedding cuisine throughout the day:\n\nBreakfast\n\nLunch\n\nDinner\n\nThe day offers an unforgettable cultural experience filled with joy, traditions, and celebration.\n\nOvernight stay at the hotel.",
+    "day6": "Bidai & Post-Wedding Rituals\n\nAfter breakfast, take part in the Bidai ceremony, a deeply emotional and traditional farewell ritual. Later, witness and experience post-wedding customs and rituals, giving you insight into the cultural significance after marriage.\n\nAll meals — Breakfast, Lunch, and Dinner — will again be traditional local wedding food, allowing you to continue enjoying authentic flavors.\n\nThe day is calmer, reflective, and culturally enriching.\n\nOvernight stay at the hotel.",
+    "day7": "Leisure – Market Visit – Departure\n\nAfter breakfast at the hotel, enjoy some leisure time to relax. Later, proceed for a local market visit to shop for souvenirs, handicrafts, and memorable keepsakes.\n\nIf time permits, enjoy short sightseeing around the city.\nAfterward, you will be transferred to the airport for your onward journey, carrying unforgettable memories of a complete Indian wedding experience."
   }
 }

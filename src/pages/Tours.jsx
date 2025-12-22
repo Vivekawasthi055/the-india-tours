@@ -13,15 +13,19 @@ const Tours = () => {
 
       {/* --- Small Customize Card --- */}
       <div className="customize-card">
-        <p>{t("tours.customize")}</p>
-        <a
-          href="https://wa.me/919630382854"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="whatsapp-btn"
-        >
-          {t("contact.whatsapp")}
-        </a>
+        <h2>{t("tours.customizeTitle")}</h2>
+
+        <div className="customize-content">
+          <p>{t("tours.customize")}</p>
+          <a
+            href="https://wa.me/919630382854"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="whatsapp-btn"
+          >
+            {t("contact.whatsapp")}
+          </a>
+        </div>
       </div>
 
       {/* --- Existing Tours Grid --- */}

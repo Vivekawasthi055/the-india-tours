@@ -42,6 +42,13 @@ import holi1 from "../assets/images/holi1.jpg";
 import holi2 from "../assets/images/holi2.jpg";
 import holi3 from "../assets/images/holi3.jpg";
 
+// Wedding Tour
+import weddingMain from "../assets/images/royal-wedding.jpg";
+import wedding1 from "../assets/images/wedding1.jpg";
+import wedding2 from "../assets/images/wedding2.jpg";
+import wedding3 from "../assets/images/wedding3.jpg";
+
+
 // ===== TOURS DATA =====
 
 const tours = [
@@ -148,6 +155,24 @@ const tours = [
     itinerary: ["holiCultural.day1", "holiCultural.day2", "holiCultural.day3"],
     gallery: [holi1, holi2, holi3],
   },
+  {
+  id: "royal-indian-wedding-experience",
+  titleKey: "toursData.royalWedding.title",
+  descKey: "toursData.royalWedding.desc",
+  image: weddingMain,
+  durationKey: "toursData.royalWedding.duration",
+  itinerary: [
+    "royalWedding.day1",
+    "royalWedding.day2",
+    "royalWedding.day3",
+    "royalWedding.day4",
+    "royalWedding.day5",
+    "royalWedding.day6",
+    "royalWedding.day7"
+  ],
+  gallery: [wedding1, wedding2, wedding3],
+},
+
 ];
 
 export default tours;

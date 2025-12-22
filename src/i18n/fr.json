@@ -18,7 +18,8 @@
     "details": "Voir les Détails",
     "itinerary": "Voir l'Itinéraire Complet",
     "contact": "Contactez-nous pour le Prix",
-    "customize": "Planifiez votre voyage parfait en Inde avec nous (Pour un circuit personnalisé, discutez avec notre expert)"
+    "customizeTitle": "Personnalisez Votre Voyage en Inde",
+    "customize": "Planifiez votre voyage idéal en Inde avec nous. Discutez avec notre expert pour un circuit entièrement personnalisé."
   },
 
   "itinerary": {
@@ -61,6 +62,11 @@
       "title": "Tour Culturel Spécial Holi",
       "duration": "3 Jours",
       "desc": "Célébrez la Fête des Couleurs avec une famille indienne locale et découvrez la joie, les traditions, la musique, les couleurs naturelles et la cuisine festive du Holi. 📌VISITE DE VILLE INDIENNE – EXPÉRIENCE HOLI EN FAMILLE"
+    },
+    "royalWedding": {
+      "title": "Expérience Royale de Mariage Indien",
+      "duration": "7 Jours",
+      "desc": "Découvrez un mariage indien traditionnel complet avec des rituels authentiques, des célébrations colorées, une immersion culturelle, une cuisine locale et des visites touristiques — une expérience inoubliable. 📌Inde – Expérience de Ville de Mariage Traditionnel"
     }
   },
 
@@ -85,6 +91,18 @@
     "goa": {
       "title": "Goa",
       "desc": "Plages, vie nocturne et détente"
+    },
+    "delhi": {
+      "title": "Delhi",
+      "desc": "Monuments historiques, culture et vie urbaine animée"
+    },
+    "up": {
+      "title": "Uttar Pradesh",
+      "desc": "Destinations spirituelles, patrimoine et traditions"
+    },
+    "mp": {
+      "title": "Madhya Pradesh",
+      "desc": "Faune, sites historiques et temples anciens"
     },
 
     "ctaTitle": "Prêt à Explorer l’Inde ?",
@@ -168,5 +186,14 @@
     "day1": "Arrivée à l'aéroport, accueil et transfert à l'hôtel. Installation et repos. Déjeuner ou dîner à l'hôtel ou restaurant local. Visite de la ville avec marchés et rues colorées en préparation du Holi. Retour à l'hôtel. Nuit à l'hôtel.",
     "day2": "Après le petit-déjeuner, célébration du Holi avec une famille indienne locale incluant couleurs naturelles, chants traditionnels, signification culturelle et échanges familiaux. Tous les repas inclus avec la famille hôte. Retour à l'hôtel. Nuit à l'hôtel.",
     "day3": "Après le petit-déjeuner, départ vers l'aéroport avec des souvenirs colorés et inoubliables du Holi en Inde."
+  },
+  "royalWedding": {
+    "day1": "Arrivée – Temps Libre – Dîner Traditionnel\n\nÀ votre arrivée à l’aéroport, vous serez chaleureusement accueilli par notre représentant et transféré à votre hôtel. Après l’enregistrement, le reste de la journée est libre pour vous détendre.\n\nSi le temps le permet, vous pourrez profiter d’une visite optionnelle de la ville ou des marchés locaux.\nLe soir, dégustez un délicieux dîner dans un restaurant indien traditionnel.\n\nNuit à l’hôtel.",
+    "day2": "Visite de la Ville et Shopping de Tenues de Mariage\n\nAprès le petit-déjeuner, départ pour une visite complète de la ville. Découvrez des sites culturels, historiques et des bazars locaux.\n\nPlus tard, vivez une expérience unique de shopping de tenues traditionnelles de mariage indien.\nDéjeuner dans un restaurant traditionnel.\n\nEn soirée, poursuite des visites ou du shopping suivie du dîner.\n\nNuit à l’hôtel.",
+    "day3": "Cérémonie du Mandap de Mariage\n\nAprès le petit-déjeuner, la journée est consacrée à la cérémonie du Mandap avec ses rituels traditionnels.\n\nProfitez de la cuisine traditionnelle de mariage toute la journée, incluant:\n\nPetit-déjeuner\n\nDéjeuner\n\nDîner\n\nDécouvrez la chaleur et la spiritualité des mariages indiens.\n\nNuit à l’hôtel.",
+    "day4": "Célébrations Haldi, Mehndi et Sangeet\n\nAprès le petit-déjeuner, plongez dans les célébrations pré-mariage les plus joyeuses.\n\nAujourd’hui inclut:\n\nCérémonie Haldi\n\nApplication du Mehndi\n\nSoirée Sangeet avec musique et danse\n\nTous les repas seront de la cuisine traditionnelle de mariage.\n\nUne journée remplie de couleurs, de musique et de joie.\n\nNuit à l’hôtel.",
+    "day5": "Cérémonie Principale de Mariage\n\nAprès le petit-déjeuner, préparez-vous pour le grand jour : la cérémonie principale de mariage.\n\nAssistez aux rituels traditionnels complets, décorations colorées et moments émouvants.\n\nCuisine de mariage toute la journée:\n\nPetit-déjeuner\n\nDéjeuner\n\nDîner\n\nUne expérience culturelle inoubliable.\n\nNuit à l’hôtel.",
+    "day6": "Bidai et Rituels Post-Mariage\n\nAprès le petit-déjeuner, participez à la cérémonie de Bidai suivie des rituels post-mariage.\n\nTous les repas seront de la cuisine traditionnelle locale de mariage.\n\nUne journée paisible et enrichissante.\n\nNuit à l’hôtel.",
+    "day7": "Temps Libre – Marché – Départ\n\nAprès le petit-déjeuner, profitez d’un moment de détente puis visite d’un marché local.\n\nSi le temps le permet, courte visite de la ville.\nTransfert à l’aéroport pour votre voyage retour avec des souvenirs inoubliables."
   }
 }

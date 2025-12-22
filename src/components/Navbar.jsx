@@ -77,6 +77,7 @@ const Navbar = () => {
           <option value="it">Italian</option>
           <option value="fr">French</option>
           <option value="pt">Portuguese (Brazil)</option>
+          <option value="ru">Russian</option>
         </select>
       </div>
 

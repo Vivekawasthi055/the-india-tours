@@ -16,7 +16,8 @@
     "details": "Ver Detalles",
     "itinerary": "Ver Itinerario Completo",
     "contact": "Contáctanos para el Precio",
-    "customize": "Planifica tu viaje perfecto por la India con nosotros (Para un tour personalizado, chatea con nuestro experto)"
+    "customizeTitle": "Personaliza tu Tour por la India",
+    "customize": "Planifica tu viaje perfecto por la India con nosotros. Chatea con nuestro experto para un tour totalmente personalizado."
   },
   "itinerary": {
     "title": "Itinerario del Tour",
@@ -57,6 +58,11 @@
       "title": "Tour Cultural Especial de Holi",
       "duration": "3 Días",
       "desc": "Celebra el Festival de los Colores con una familia india local y vive la alegría, tradiciones, música, colores orgánicos y la gastronomía festiva de Holi en un entorno auténtico. 📌TOUR POR CIUDAD INDIA – EXPERIENCIA HOLI CON FAMILIA LOCAL"
+    },
+    "royalWedding": {
+      "title": "Experiencia Real de Boda India",
+      "duration": "7 Días",
+      "desc": "Vive una boda tradicional india completa con rituales auténticos, celebraciones vibrantes, inmersión cultural, gastronomía local y visitas turísticas — una experiencia cultural única. 📌India – Experiencia de Ciudad de Boda Tradicional"
     }
   },
   "destinations": {
@@ -80,6 +86,18 @@
     "goa": {
       "title": "Goa",
       "desc": "Playas, vida nocturna y descanso"
+    },
+    "delhi": {
+      "title": "Delhi",
+      "desc": "Monumentos históricos, cultura y vida urbana vibrante"
+    },
+    "up": {
+      "title": "Uttar Pradesh",
+      "desc": "Destinos espirituales, patrimonio y tradiciones"
+    },
+    "mp": {
+      "title": "Madhya Pradesh",
+      "desc": "Vida silvestre, sitios históricos y templos antiguos"
     },
 
     "ctaTitle": "¿Listo para Explorar la India?",
@@ -158,5 +176,14 @@
     "day1": "A la llegada al aeropuerto, nuestro representante le dará una cálida bienvenida y le asistirá con el traslado al hotel. Después del check-in, tiempo para relajarse y refrescarse. Más tarde, almuerzo o cena en el hotel o restaurante local seleccionado. Por la tarde, visita por la ciudad explorando atracciones principales, mercados locales y calles coloridas preparándose para Holi. Regreso al hotel. Noche en el hotel.",
     "day2": "Después del desayuno, prepárese para un día lleno de alegría cultural. Celebración de Holi con una familia india local incluyendo colores orgánicos, canciones tradicionales, comprensión del significado cultural y convivencia con la familia anfitriona. Todas las comidas incluidas con la familia local. Regreso al hotel. Noche en el hotel.",
     "day3": "Después del desayuno, check-out y traslado al aeropuerto con recuerdos coloridos e inolvidables de Holi en India."
+  },
+  "royalWedding": {
+    "day1": "Llegada – Tiempo Libre – Cena Tradicional\n\nA su llegada al aeropuerto, será recibido cordialmente por nuestro representante y trasladado a su hotel. Después del check-in, el resto del día queda libre para descansar tras el viaje.\n\nSi el tiempo lo permite, podrá disfrutar de un recorrido opcional por la ciudad, explorando atracciones cercanas o mercados a un ritmo relajado.\nPor la noche, disfrute de una deliciosa cena en un restaurante tradicional indio, una perfecta introducción a los auténticos sabores locales.\n\nAlojamiento en el hotel.",
+    "day2": "Visita a la Ciudad y Compras de Vestimenta de Boda\n\nDespués del desayuno en el hotel, salida para una visita completa por la ciudad. Visite lugares emblemáticos, sitios culturales, zonas patrimoniales y bazares locales para comprender el estilo de vida y las tradiciones.\n\nMás tarde, disfrute de una experiencia única comprando vestimenta tradicional de boda india, explorando coloridos trajes de novia y novio, joyas y accesorios.\nAlmuerzo en un restaurante tradicional.\n\nPor la noche, continúe con visitas o compras antes de la cena en un restaurante tradicional.\n\nAlojamiento en el hotel.",
+    "day3": "Ceremonia del Mandap de Boda\n\nDespués del desayuno, el día está dedicado a la ceremonia del Mandap, donde presenciará rituales y preparativos tradicionales que forman la base de una boda india.\n\nDisfrute de auténtica comida típica de boda durante todo el día, incluyendo:\n\nDesayuno\n\nAlmuerzo\n\nCena\n\nExperimente la calidez, espiritualidad y costumbres que hacen las bodas indias tan significativas.\n\nAlojamiento en el hotel.",
+    "day4": "Celebración de Haldi, Mehndi y Sangeet\n\nDespués del desayuno, sumérjase en las celebraciones previas a la boda más coloridas y alegres.\n\nLas experiencias de hoy incluyen:\n\nCeremonia de Haldi con rituales tradicionales\n\nAplicación de Mehndi (henna) con hermosos diseños\n\nNoche de Sangeet con música, danza y actuaciones culturales\n\nTodas las comidas — desayuno, almuerzo y cena — serán comida tradicional de boda preparada localmente.\n\nUn día lleno de risas, colores, música y unión cultural.\n\nAlojamiento en el hotel.",
+    "day5": "Ceremonia Principal de Boda\n\nDespués del desayuno, prepárese para el día más importante y grandioso del tour: la Ceremonia Principal de Boda.\n\nPresencie todos los rituales tradicionales de una boda india, decoraciones vibrantes, costumbres culturales y momentos emotivos.\n\nDisfrute de la gastronomía completa de boda durante todo el día:\n\nDesayuno\n\nAlmuerzo\n\nCena\n\nUn día inolvidable lleno de alegría, tradiciones y celebraciones.\n\nAlojamiento en el hotel.",
+    "day6": "Bidai y Rituales Post-Boda\n\nDespués del desayuno, participe en la ceremonia de Bidai, un emotivo ritual tradicional de despedida. Más tarde, presencie y experimente rituales posteriores a la boda, comprendiendo su significado cultural.\n\nTodas las comidas — desayuno, almuerzo y cena — serán nuevamente comida tradicional local de boda.\n\nUn día tranquilo, reflexivo y culturalmente enriquecedor.\n\nAlojamiento en el hotel.",
+    "day7": "Tiempo Libre – Visita al Mercado – Salida\n\nDespués del desayuno, disfrute de tiempo libre para relajarse. Más tarde, visita a un mercado local para comprar recuerdos, artesanías y souvenirs.\n\nSi el tiempo lo permite, breve recorrido por la ciudad.\nPosteriormente, traslado al aeropuerto para su viaje de regreso con recuerdos inolvidables de una boda india completa."
   }
 }

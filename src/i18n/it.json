@@ -16,7 +16,8 @@
     "details": "Vedi Dettagli",
     "itinerary": "Vedi Itinerario Completo",
     "contact": "Contattaci per il Prezzo",
-    "customize": "Pianifica il tuo viaggio perfetto in India con noi (Per un tour personalizzato, chatta con il nostro esperto)"
+    "customizeTitle": "Personalizza il Tuo Tour in India",
+    "customize": "Pianifica il tuo viaggio perfetto in India con noi. Chatta con il nostro esperto per un tour completamente personalizzato."
   },
   "itinerary": {
     "title": "Itinerario del Tour",
@@ -57,6 +58,11 @@
       "title": "Tour Culturale Speciale Holi",
       "duration": "3 Giorni",
       "desc": "Festeggia il Festival dei Colori con una famiglia indiana locale e vivi gioia, tradizioni, musica, colori naturali e cucina festiva in un’autentica esperienza culturale. 📌TOUR CITTÀ INDIANA – ESPERIENZA HOLI CON FAMIGLIA LOCALE"
+    },
+    "royalWedding": {
+      "title": "Esperienza Reale di Matrimonio Indiano",
+      "duration": "7 Giorni",
+      "desc": "Vivi un matrimonio tradizionale indiano completo con rituali autentici, celebrazioni vivaci, immersione culturale, cucina locale e visite turistiche — un viaggio culturale unico. 📌India – Esperienza di Città per Matrimonio Tradizionale"
     }
   },
 
@@ -81,6 +87,18 @@
     "goa": {
       "title": "Goa",
       "desc": "Spiagge, vita notturna e relax"
+    },
+    "delhi": {
+      "title": "Delhi",
+      "desc": "Monumenti storici, cultura e vita urbana vivace"
+    },
+    "up": {
+      "title": "Uttar Pradesh",
+      "desc": "Destinazioni spirituali, patrimonio e tradizioni"
+    },
+    "mp": {
+      "title": "Madhya Pradesh",
+      "desc": "Fauna, siti storici e templi antichi"
     },
 
     "ctaTitle": "Pronto a Esplorare l’India?",
@@ -159,5 +177,14 @@
     "day1": "Arrivo in aeroporto, accoglienza e trasferimento in hotel. Check-in e relax. Pranzo o cena in hotel o ristorante locale. In serata visita della città con mercati e strade colorate in preparazione al Holi. Rientro in hotel. Pernottamento.",
     "day2": "Dopo colazione, celebrazione del Holi con una famiglia indiana locale: colori naturali, canti tradizionali, significato culturale e interazione familiare. Tutti i pasti inclusi con la famiglia ospitante. Rientro in hotel. Pernottamento.",
     "day3": "Dopo colazione, check-out e trasferimento in aeroporto con ricordi indimenticabili del Holi in India."
+  },
+  "royalWedding": {
+    "day1": "Arrivo – Tempo Libero – Cena Tradizionale\n\nAll’arrivo in aeroporto, accoglienza e trasferimento in hotel. Dopo il check-in, tempo libero per rilassarsi.\n\nSe il tempo lo consente, visita facoltativa dei mercati o luoghi vicini.\nLa sera, cena in un ristorante tradizionale indiano.\n\nPernottamento in hotel.",
+    "day2": "Visita della Città e Shopping Abiti da Matrimonio\n\nDopo colazione, visita guidata della città con monumenti, aree culturali e bazar.\n\nSuccessivamente, shopping di abiti tradizionali da matrimonio indiano.\nPranzo in ristorante tradizionale.\n\nCena e pernottamento in hotel.",
+    "day3": "Cerimonia del Mandap di Matrimonio\n\nDopo colazione, giornata dedicata alla cerimonia Mandap.\n\nCucina tradizionale di matrimonio per tutta la giornata:\n\nColazione\n\nPranzo\n\nCena\n\nVivi le tradizioni e la spiritualità del matrimonio indiano.\n\nPernottamento in hotel.",
+    "day4": "Celebrazioni Haldi, Mehndi e Sangeet\n\nDopo colazione, partecipa alle celebrazioni pre-matrimoniali.\n\nInclude:\n\nCerimonia Haldi\n\nMehndi\n\nSerata Sangeet con musica e danza\n\nTutti i pasti saranno tradizionali.\n\nPernottamento in hotel.",
+    "day5": "Cerimonia Principale di Matrimonio\n\nDopo colazione, preparazione per la cerimonia principale di matrimonio.\n\nRituali completi, decorazioni e momenti emozionanti.\n\nPasti completi di matrimonio:\n\nColazione\n\nPranzo\n\nCena\n\nPernottamento in hotel.",
+    "day6": "Bidai e Rituali Post-Matrimonio\n\nDopo colazione, partecipazione alla cerimonia di Bidai e rituali successivi.\n\nPasti tradizionali locali per tutta la giornata.\n\nPernottamento in hotel.",
+    "day7": "Tempo Libero – Mercato – Partenza\n\nDopo colazione, tempo libero e visita al mercato locale.\n\nTrasferimento in aeroporto per il viaggio di ritorno."
   }
 }
