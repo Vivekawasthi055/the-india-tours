@@ -67,6 +67,11 @@
       "title": "Experiência Real de Casamento Indiano",
       "duration": "7 Dias",
       "desc": "Vivencie um casamento tradicional indiano completo com rituais autênticos, celebrações vibrantes, imersão cultural, gastronomia local e passeios turísticos — uma experiência inesquecível. 📌Índia – Experiência de Cidade de Casamento Tradicional"
+    },
+    "incredibleIndia": {
+      "title": "Índia Incrível – Tour de 7 Dias",
+      "duration": "7 Dias",
+      "desc": "Explore a diversidade cultural, o patrimônio real, as tradições espirituais e os pontos turísticos icônicos da Índia — de cidades históricas e palácios reais a rios sagrados e locais da UNESCO. 📌Delhi – Udaipur – Pushkar – Jaipur – Abhaneri – Agra – Orchha – Khajuraho – Varanasi"
     }
   },
 
@@ -197,12 +202,22 @@
     "day3": "Após o café da manhã, check-out e traslado ao aeroporto com memórias coloridas e inesquecíveis do Holi na Índia."
   },
   "royalWedding": {
-    "day1": "Chegada – Lazer – Jantar Tradicional\n\nRecepção no aeroporto e traslado ao hotel. Após o check-in, tempo livre para descanso.\n\nSe houver tempo, passeio opcional pela cidade.\nÀ noite, jantar em restaurante tradicional indiano.\n\nPernoite no hotel.",
-    "day2": "Passeio pela Cidade e Compras de Trajes de Casamento\n\nApós o café da manhã, tour completo pela cidade.\n\nDepois, compras de trajes tradicionais de casamento indiano.\nAlmoço em restaurante tradicional.\n\nJantar e pernoite no hotel.",
-    "day3": "Cerimônia do Mandap de Casamento\n\nApós o café da manhã, dia dedicado à cerimônia Mandap.\n\nComidas tradicionais de casamento durante todo o dia:\n\nCafé da manhã\n\nAlmoço\n\nJantar\n\nPernoite no hotel.",
-    "day4": "Celebrações Haldi, Mehndi e Sangeet\n\nApós o café da manhã, participe das celebrações pré-casamento.\n\nInclui:\n\nCerimônia Haldi\n\nMehndi\n\nNoite de Sangeet com música e dança\n\nTodas as refeições tradicionais.\n\nPernoite no hotel.",
-    "day5": "Cerimônia Principal de Casamento\n\nApós o café da manhã, prepare-se para a cerimônia principal.\n\nRituais completos e momentos emocionantes.\n\nRefeições completas de casamento:\n\nCafé da manhã\n\nAlmoço\n\nJantar\n\nPernoite no hotel.",
-    "day6": "Bidai e Rituais Pós-Casamento\n\nApós o café da manhã, participe da cerimônia de Bidai e rituais posteriores.\n\nRefeições tradicionais durante todo o dia.\n\nPernoite no hotel.",
-    "day7": "Lazer – Mercado – Partida\n\nApós o café da manhã, tempo livre e visita ao mercado local.\n\nTraslado ao aeroporto para viagem de retorno."
-  }
+    "day1": "Chegada – Lazer – Jantar Tradicional:\n\nRecepção no aeroporto e traslado ao hotel. Após o check-in, tempo livre para descanso.\n\nSe houver tempo, passeio opcional pela cidade.\nÀ noite, jantar em restaurante tradicional indiano.\n\nPernoite no hotel.",
+    "day2": "Passeio pela Cidade e Compras de Trajes de Casamento:\n\nApós o café da manhã, tour completo pela cidade.\n\nDepois, compras de trajes tradicionais de casamento indiano.\nAlmoço em restaurante tradicional.\n\nJantar e pernoite no hotel.",
+    "day3": "Cerimônia do Mandap de Casamento:\n\nApós o café da manhã, dia dedicado à cerimônia Mandap.\n\nComidas tradicionais de casamento durante todo o dia:\n\nCafé da manhã\n\nAlmoço\n\nJantar\n\nPernoite no hotel.",
+    "day4": "Celebrações Haldi, Mehndi e Sangeet:\n\nApós o café da manhã, participe das celebrações pré-casamento.\n\nInclui:\n\nCerimônia Haldi\n\nMehndi\n\nNoite de Sangeet com música e dança\n\nTodas as refeições tradicionais.\n\nPernoite no hotel.",
+    "day5": "Cerimônia Principal de Casamento:\n\nApós o café da manhã, prepare-se para a cerimônia principal.\n\nRituais completos e momentos emocionantes.\n\nRefeições completas de casamento:\n\nCafé da manhã\n\nAlmoço\n\nJantar\n\nPernoite no hotel.",
+    "day6": "Bidai e Rituais Pós-Casamento:\n\nApós o café da manhã, participe da cerimônia de Bidai e rituais posteriores.\n\nRefeições tradicionais durante todo o dia.\n\nPernoite no hotel.",
+    "day7": "Lazer – Mercado – Partida:\n\nApós o café da manhã, tempo livre e visita ao mercado local.\n\nTraslado ao aeroporto para viagem de retorno."
+  },
+  "incredibleIndia": {
+  "day1": "Delhi – Chegada e Passeios:\nChegada ao aeroporto de Delhi e encontro com o representante para traslado ao hotel. Após o check-in, café da manhã no hotel. Início dos passeios com o Forte Vermelho, Jama Masjid e Raj Ghat. Visita ao India Gate e ao Parlamento em Nova Delhi. Opcionalmente, passeio por Connaught Place para compras. Almoço e jantar em restaurantes locais recomendados. Pernoite em hotel em Delhi.",
+  "day2": "Delhi → Udaipur:\nApós o café da manhã, voo ou trem para Udaipur. Chegada e check-in no hotel. Almoço em restaurante à beira do lago. Visita ao City Palace, Jag Mandir e Saheliyon Ki Bari. À noite, passeio de barco no Lago Pichola. Jantar em restaurante local. Pernoite em hotel em Udaipur.",
+  "day3": "Udaipur → Pushkar → Jaipur:\nApós o café da manhã, viagem para Pushkar. Visita ao Lago Pushkar, Templo de Brahma e mercados locais. Almoço em restaurante local em Pushkar. Continuação para Jaipur e check-in no hotel. Jantar em restaurante tradicional. Pernoite em hotel em Jaipur.",
+  "day4": "Jaipur → Abhaneri → Agra:\nApós o café da manhã, viagem para Abhaneri para visitar o poço Chand Baori. Almoço em restaurante local. Continuação para Agra e check-in no hotel. Jantar em restaurante recomendado. Pernoite em hotel em Agra.",
+  "day5": "Agra → Orchha → Khajuraho:\nApós o café da manhã, visita ao Taj Mahal e ao Forte de Agra. Almoço em restaurante local. Viagem para Orchha e visita ao Complexo do Forte de Orchha com templos e palácios. Continuação para Khajuraho. Jantar e pernoite em hotel em Khajuraho.",
+  "day6": "Khajuraho → Varanasi:\nApós o café da manhã, visita aos Templos de Khajuraho, famosos por suas esculturas e patrimônio da UNESCO. Almoço em restaurante local. Voo ou trem para Varanasi. Check-in no hotel e participação na cerimônia noturna do Ganga Aarti em Dashashwamedh Ghat. Jantar em restaurante local. Pernoite em hotel em Varanasi.",
+  "day7": "Varanasi – Partida:\nApós o café da manhã, passeio opcional de barco ao amanhecer no Rio Ganges. Visita a Sarnath se houver tempo. Almoço em restaurante recomendado. Tempo livre para compras ou lazer. Traslado ao aeroporto de Varanasi para viagem de retorno."
+}
+
 }

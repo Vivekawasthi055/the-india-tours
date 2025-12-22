@@ -48,6 +48,11 @@ import wedding1 from "../assets/images/wedding1.jpg";
 import wedding2 from "../assets/images/wedding2.jpg";
 import wedding3 from "../assets/images/wedding3.jpg";
 
+// Incredible India Tour
+import incredibleIndiaMain from "../assets/images/incredible-india.jpg";
+import incredibleIndia1 from "../assets/images/incredible1.jpg";
+import incredibleIndia2 from "../assets/images/incredible2.jpg";
+import incredibleIndia3 from "../assets/images/incredible3.jpg";
 
 // ===== TOURS DATA =====
 
@@ -156,23 +161,39 @@ const tours = [
     gallery: [holi1, holi2, holi3],
   },
   {
-  id: "royal-indian-wedding-experience",
-  titleKey: "toursData.royalWedding.title",
-  descKey: "toursData.royalWedding.desc",
-  image: weddingMain,
-  durationKey: "toursData.royalWedding.duration",
-  itinerary: [
-    "royalWedding.day1",
-    "royalWedding.day2",
-    "royalWedding.day3",
-    "royalWedding.day4",
-    "royalWedding.day5",
-    "royalWedding.day6",
-    "royalWedding.day7"
-  ],
-  gallery: [wedding1, wedding2, wedding3],
-},
-
+    id: "royal-indian-wedding-experience",
+    titleKey: "toursData.royalWedding.title",
+    descKey: "toursData.royalWedding.desc",
+    image: weddingMain,
+    durationKey: "toursData.royalWedding.duration",
+    itinerary: [
+      "royalWedding.day1",
+      "royalWedding.day2",
+      "royalWedding.day3",
+      "royalWedding.day4",
+      "royalWedding.day5",
+      "royalWedding.day6",
+      "royalWedding.day7",
+    ],
+    gallery: [wedding1, wedding2, wedding3],
+  },
+  {
+    id: "incredible-india-7-days",
+    titleKey: "toursData.incredibleIndia.title",
+    descKey: "toursData.incredibleIndia.desc",
+    image: incredibleIndiaMain,
+    durationKey: "toursData.incredibleIndia.duration",
+    itinerary: [
+      "incredibleIndia.day1",
+      "incredibleIndia.day2",
+      "incredibleIndia.day3",
+      "incredibleIndia.day4",
+      "incredibleIndia.day5",
+      "incredibleIndia.day6",
+      "incredibleIndia.day7",
+    ],
+    gallery: [incredibleIndia1, incredibleIndia2, incredibleIndia3],
+  },
 ];
 
 export default tours;
