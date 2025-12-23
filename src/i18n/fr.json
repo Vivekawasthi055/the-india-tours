@@ -4,6 +4,7 @@
     "destinations": "Destinations",
     "tours": "Circuits",
     "about": "À propos",
+    "gallery": "Galerie",
     "contact": "Contact"
   },
 
@@ -126,6 +127,22 @@
     "whyText": "Équipe expérimentée et assistance complète."
   },
 
+  "gallery": {
+    "heading": "Galerie de Voyage",
+    "subtitle": "Moments de nos circuits, célébrations et voyages inoubliables",
+    "filters": {
+      "all": "Tous",
+      "photo": "Photos",
+      "video": "Vidéos",
+      "youtube": "YouTube"
+    },
+    "cta": {
+      "heading": "Voulez-vous vivre ces moments ?",
+      "text": "Découvrez nos circuits ou personnalisez votre propre voyage.",
+      "exploreBtn": "Explorer le Tour",
+      "customizeBtn": "Personnaliser le Tour"
+    }
+  },
   "contact": {
     "title": "Contactez-nous",
     "subtitle": "Planifiez votre voyage idéal en Inde avec nous",

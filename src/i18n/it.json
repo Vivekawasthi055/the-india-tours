@@ -4,6 +4,7 @@
     "destinations": "Destinazioni",
     "tours": "Tour",
     "about": "Chi Siamo",
+    "gallery": "Galleria",
     "contact": "Contatto"
   },
   "home": {
@@ -119,6 +120,23 @@
     "promiseText": "Servizio affidabile e tour personalizzati.",
     "whyTitle": "Perché Sceglierci",
     "whyText": "Team esperto e supporto completo."
+  },
+
+  "gallery": {
+    "heading": "Galleria di Viaggio",
+    "subtitle": "Momenti dei nostri tour, celebrazioni e viaggi indimenticabili",
+    "filters": {
+      "all": "Tutti",
+      "photo": "Foto",
+      "video": "Video",
+      "youtube": "YouTube"
+    },
+    "cta": {
+      "heading": "Vuoi vivere questi momenti?",
+      "text": "Esplora i nostri tour o personalizza il tuo viaggio.",
+      "exploreBtn": "Esplora Tour",
+      "customizeBtn": "Personalizza Tour"
+    }
   },
   "contact": {
     "title": "Contattaci",

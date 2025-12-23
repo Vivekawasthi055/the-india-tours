@@ -8,7 +8,8 @@ import Destinations from "./pages/Destinations";
 import Tours from "./pages/Tours";
 import TourDetail from "./pages/TourDetail";
 import Itinerary from "./pages/Itinerary";
-import About from "./pages/About";
+import About from "./pages/About"
+import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/tour/:id" element={<TourDetail />} />
         <Route path="/itinerary/:id" element={<Itinerary />} />
         <Route path="/about" element={<About />} />
+        <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
 

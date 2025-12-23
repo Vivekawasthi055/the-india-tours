@@ -61,6 +61,14 @@ const Navbar = () => {
         </li>
         <li>
           <Link
+            to="/gallery"
+            className={location.pathname === "/gallery" ? "active" : ""}
+          >
+            {t("nav.gallery")}
+          </Link>
+        </li>
+        <li>
+          <Link
             to="/contact"
             className={location.pathname === "/contact" ? "active" : ""}
           >

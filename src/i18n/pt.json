@@ -4,6 +4,7 @@
     "destinations": "Destinos",
     "tours": "Passeios",
     "about": "Sobre",
+    "gallery": "Galeria",
     "contact": "Contato"
   },
 
@@ -136,6 +137,23 @@
     "whyText": "Equipe experiente e suporte completo de viagem."
   },
 
+  "gallery": {
+    "heading": "Galeria de Viagem",
+    "subtitle": "Momentos de nossos passeios, celebrações e viagens inesquecíveis",
+    "filters": {
+      "all": "Todos",
+      "photo": "Fotos",
+      "video": "Vídeos",
+      "youtube": "YouTube"
+    },
+    "cta": {
+      "heading": "Quer vivenciar esses momentos?",
+      "text": "Explore nossos tours ou personalize sua própria jornada.",
+      "exploreBtn": "Explorar Tour",
+      "customizeBtn": "Personalizar Tour"
+    }
+  },
+
   "contact": {
     "title": "Entre em Contato",
     "subtitle": "Planeje sua viagem perfeita pela Índia conosco",
@@ -211,13 +229,12 @@
     "day7": "Lazer – Mercado – Partida:\n\nApós o café da manhã, tempo livre e visita ao mercado local.\n\nTraslado ao aeroporto para viagem de retorno."
   },
   "incredibleIndia": {
-  "day1": "Delhi – Chegada e Passeios:\nChegada ao aeroporto de Delhi e encontro com o representante para traslado ao hotel. Após o check-in, café da manhã no hotel. Início dos passeios com o Forte Vermelho, Jama Masjid e Raj Ghat. Visita ao India Gate e ao Parlamento em Nova Delhi. Opcionalmente, passeio por Connaught Place para compras. Almoço e jantar em restaurantes locais recomendados. Pernoite em hotel em Delhi.",
-  "day2": "Delhi → Udaipur:\nApós o café da manhã, voo ou trem para Udaipur. Chegada e check-in no hotel. Almoço em restaurante à beira do lago. Visita ao City Palace, Jag Mandir e Saheliyon Ki Bari. À noite, passeio de barco no Lago Pichola. Jantar em restaurante local. Pernoite em hotel em Udaipur.",
-  "day3": "Udaipur → Pushkar → Jaipur:\nApós o café da manhã, viagem para Pushkar. Visita ao Lago Pushkar, Templo de Brahma e mercados locais. Almoço em restaurante local em Pushkar. Continuação para Jaipur e check-in no hotel. Jantar em restaurante tradicional. Pernoite em hotel em Jaipur.",
-  "day4": "Jaipur → Abhaneri → Agra:\nApós o café da manhã, viagem para Abhaneri para visitar o poço Chand Baori. Almoço em restaurante local. Continuação para Agra e check-in no hotel. Jantar em restaurante recomendado. Pernoite em hotel em Agra.",
-  "day5": "Agra → Orchha → Khajuraho:\nApós o café da manhã, visita ao Taj Mahal e ao Forte de Agra. Almoço em restaurante local. Viagem para Orchha e visita ao Complexo do Forte de Orchha com templos e palácios. Continuação para Khajuraho. Jantar e pernoite em hotel em Khajuraho.",
-  "day6": "Khajuraho → Varanasi:\nApós o café da manhã, visita aos Templos de Khajuraho, famosos por suas esculturas e patrimônio da UNESCO. Almoço em restaurante local. Voo ou trem para Varanasi. Check-in no hotel e participação na cerimônia noturna do Ganga Aarti em Dashashwamedh Ghat. Jantar em restaurante local. Pernoite em hotel em Varanasi.",
-  "day7": "Varanasi – Partida:\nApós o café da manhã, passeio opcional de barco ao amanhecer no Rio Ganges. Visita a Sarnath se houver tempo. Almoço em restaurante recomendado. Tempo livre para compras ou lazer. Traslado ao aeroporto de Varanasi para viagem de retorno."
-}
-
+    "day1": "Delhi – Chegada e Passeios:\nChegada ao aeroporto de Delhi e encontro com o representante para traslado ao hotel. Após o check-in, café da manhã no hotel. Início dos passeios com o Forte Vermelho, Jama Masjid e Raj Ghat. Visita ao India Gate e ao Parlamento em Nova Delhi. Opcionalmente, passeio por Connaught Place para compras. Almoço e jantar em restaurantes locais recomendados. Pernoite em hotel em Delhi.",
+    "day2": "Delhi → Udaipur:\nApós o café da manhã, voo ou trem para Udaipur. Chegada e check-in no hotel. Almoço em restaurante à beira do lago. Visita ao City Palace, Jag Mandir e Saheliyon Ki Bari. À noite, passeio de barco no Lago Pichola. Jantar em restaurante local. Pernoite em hotel em Udaipur.",
+    "day3": "Udaipur → Pushkar → Jaipur:\nApós o café da manhã, viagem para Pushkar. Visita ao Lago Pushkar, Templo de Brahma e mercados locais. Almoço em restaurante local em Pushkar. Continuação para Jaipur e check-in no hotel. Jantar em restaurante tradicional. Pernoite em hotel em Jaipur.",
+    "day4": "Jaipur → Abhaneri → Agra:\nApós o café da manhã, viagem para Abhaneri para visitar o poço Chand Baori. Almoço em restaurante local. Continuação para Agra e check-in no hotel. Jantar em restaurante recomendado. Pernoite em hotel em Agra.",
+    "day5": "Agra → Orchha → Khajuraho:\nApós o café da manhã, visita ao Taj Mahal e ao Forte de Agra. Almoço em restaurante local. Viagem para Orchha e visita ao Complexo do Forte de Orchha com templos e palácios. Continuação para Khajuraho. Jantar e pernoite em hotel em Khajuraho.",
+    "day6": "Khajuraho → Varanasi:\nApós o café da manhã, visita aos Templos de Khajuraho, famosos por suas esculturas e patrimônio da UNESCO. Almoço em restaurante local. Voo ou trem para Varanasi. Check-in no hotel e participação na cerimônia noturna do Ganga Aarti em Dashashwamedh Ghat. Jantar em restaurante local. Pernoite em hotel em Varanasi.",
+    "day7": "Varanasi – Partida:\nApós o café da manhã, passeio opcional de barco ao amanhecer no Rio Ganges. Visita a Sarnath se houver tempo. Almoço em restaurante recomendado. Tempo livre para compras ou lazer. Traslado ao aeroporto de Varanasi para viagem de retorno."
+  }
 }

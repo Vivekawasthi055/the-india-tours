@@ -4,6 +4,7 @@
     "destinations": "Destinations",
     "tours": "Tours",
     "about": "About",
+    "gallery": "Gallery",
     "contact": "Contact"
   },
   "home": {
@@ -118,6 +119,23 @@
     "promiseText": "We are committed to providing trusted, transparent, and personalized services. Every tour is carefully planned according to your interests, comfort, and travel style. From your arrival to your departure, our team ensures a smooth, safe, and enjoyable journey.",
     "whyTitle": "Why Choose Us",
     "whyText": "Experienced and knowledgeable local travel experts, Customized tour packages for individuals, families, and groups, Complete travel support including accommodation, transport, guides, and activities, Focus on cultural experiences and local interactions, Dedicated customer support before and during your trip."
+  },
+
+  "gallery": {
+    "heading": "Travel Gallery",
+    "subtitle": "Moments from our tours, celebrations & unforgettable journeys",
+    "filters": {
+      "all": "All",
+      "photo": "Photos",
+      "video": "Videos",
+      "youtube": "YouTube"
+    },
+    "cta": {
+      "heading": "Want to experience these moments?",
+      "text": "Explore Our Tours or Customize Your Own Journey.",
+      "exploreBtn": "Explore Tour",
+      "customizeBtn": "Customize Tour"
+    }
   },
   "contact": {
     "title": "Contact Us",

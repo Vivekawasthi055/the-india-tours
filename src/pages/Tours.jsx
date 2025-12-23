@@ -32,7 +32,7 @@ const Tours = () => {
       <div className="tour-grid">
         {tours.map((tour) => (
           <div key={tour.id} className="tour-card">
-            <img src={tour.image} alt={tour.title} />
+            <img src={tour.image} alt={tour.title} loading="lazy" />
 
             <div className="tour-content">
               <h3>{t(tour.titleKey)}</h3>
