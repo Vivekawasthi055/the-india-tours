@@ -15,13 +15,14 @@ const Contact = () => {
         <p>
           📞 <strong>{t("contact.phone")}:</strong>{" "}
           <a href="tel:+919630382854">+91 96303 82854</a>,{" "}
+          <a href="tel:+33783236654">+33 783236654</a>,{" "}
           <a href="tel:+918827573086">+91 88275 73086</a>
         </p>
 
         <p>
           ✉️ <strong>{t("contact.emailLabel")}:</strong>{" "}
-          <a href="mailto:travel@incredibletrailsindia.com">
-            travel@incredibletrailsindia.com
+          <a href="mailto:theindiatours055@gmail.com">
+            theindiatours055@gmail.com
           </a>
         </p>
       </div>
@@ -45,6 +46,14 @@ const Contact = () => {
 
         <button type="submit">{t("contact.send")}</button>
       </form>
+
+      <div>
+        <img
+          src="/logo.png"
+          alt="The India Tours Logo"
+          className="logo-contact"
+        />
+      </div>
     </div>
   );
 };

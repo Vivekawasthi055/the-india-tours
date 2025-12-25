@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="footer-top">
         {/* LEFT */}
         <div className="footer-left">
-          <h2>Incredible Trails India</h2>
+          <h2>The India Tours</h2>
           <p className="footer-desc">{t("home.subtitle")}</p>
         </div>
 
@@ -24,18 +24,15 @@ const Footer = () => {
               +91 96303 82854
             </a>
             ,{" "}
-            <a className="contact-a" href="tel:+918827573086">
-              +91 88275 73086
+            <a className="contact-a" href="tel:+33783236654">
+              +33 783236654
             </a>
           </p>
 
           <p>
             ✉️ <strong>{t("contact.emailLabel")}:</strong>{" "}
-            <a
-              className="contact-a"
-              href="mailto:travel@incredibletrailsindia.com"
-            >
-              travel@incredibletrailsindia.com
+            <a className="contact-a" href="mailto:theindiatours055@gmail.com">
+              theindiatours055@gmail.com
             </a>
           </p>
           <a
@@ -54,7 +51,7 @@ const Footer = () => {
 
       {/* BOTTOM TEXT */}
       <div className="footer-bottom">
-        <p>© 2025 Incredible Trails India</p>
+        <p>© 2025 The India Tours</p>
         <p>{t("footer.text")}</p>
       </div>
     </footer>

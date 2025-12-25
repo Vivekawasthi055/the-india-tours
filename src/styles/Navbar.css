@@ -23,12 +23,26 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
-/* LOGO */
-.logo {
+/* LOGO WRAPPER */
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* LOGO IMAGE */
+.logo-img {
+  height: 50px;
+  width: auto;
+}
+
+/* LOGO TEXT */
+.logo-text {
   font-size: 20px;
   font-weight: bold;
   color: #fff;
-  text-decoration: none;
 }
 
 /* =========================
@@ -109,19 +123,23 @@
 .hamburger.open span:nth-child(3) {
   transform: rotate(-45deg) translate(6px, -6px);
 }
-/* MOBILE MENU */
+
+/* =========================
+   MOBILE
+========================= */
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
   }
 
-  /* LOGO */
-  .logo {
-    font-size: 15px;
-    font-weight: bold;
-    color: #fff;
-    text-decoration: none;
+  .logo-img {
+    height: 50px;
   }
+
+  .logo-text {
+    font-size: 15px;
+  }
+
   .nav-links {
     position: absolute;
     top: 70px;
@@ -134,6 +152,7 @@
     transition: right 0.3s ease;
     border-radius: 10px 0 0 10px;
   }
+
   .nav-links.open {
     right: 0;
   }
@@ -163,9 +182,17 @@
    TABLET
 ========================= */
 @media (min-width: 769px) and (max-width: 918px) {
+  .logo-img {
+    height: 60px;
+  }
+
+  .logo-text {
+    font-size: 15px;
+  }
+
   .nav-links {
     margin-right: 20px;
-    gap: 20px; /* links ke beech thoda space kam */
+    gap: 20px;
   }
 
   .language-selector {
