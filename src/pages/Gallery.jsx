@@ -9,12 +9,17 @@ const Gallery = () => {
   const [filter, setFilter] = useState("all");
   const [activeItem, setActiveItem] = useState(null);
 
+  // ✅ UPDATED FILTER LOGIC
   const filteredData =
     filter === "all"
       ? galleryData
-      : galleryData.filter((item) => item.type === filter);
+      : filter === "video"
+      ? galleryData.filter(
+          (item) => item.type === "video" || item.type === "youtube"
+        )
+      : galleryData.filter((item) => item.type === "photo");
 
-  // Lazy loading for videos
+  // Lazy loading for local videos
   const videoRefs = useRef([]);
 
   useEffect(() => {
@@ -46,15 +51,15 @@ const Gallery = () => {
       <h1>{t("gallery.heading")}</h1>
       <p className="gallery-subtitle">{t("gallery.subtitle")}</p>
 
-      {/* Filters */}
+      {/* ✅ Filters (YouTube removed) */}
       <div className="gallery-filters">
-        {["all", "photo", "video", "youtube"].map((type) => (
+        {["all", "photo", "video"].map((type) => (
           <button
             key={type}
             onClick={() => setFilter(type)}
             className={filter === type ? "active" : ""}
           >
-            {t(`gallery.filters.${type}`) || type.toUpperCase()}
+            {t(`gallery.filters.${type}`)}
           </button>
         ))}
       </div>
@@ -67,10 +72,12 @@ const Gallery = () => {
             className="gallery-card"
             onClick={() => setActiveItem(item)}
           >
+            {/* Photo */}
             {item.type === "photo" && (
               <img src={item.src} alt={item.title} loading="lazy" />
             )}
 
+            {/* Local Video */}
             {item.type === "video" && (
               <video
                 ref={(el) => (videoRefs.current[idx] = el)}
@@ -81,6 +88,7 @@ const Gallery = () => {
               />
             )}
 
+            {/* YouTube Video */}
             {item.type === "youtube" && (
               <div className="youtube-lazy">
                 <img
@@ -88,12 +96,7 @@ const Gallery = () => {
                   alt={item.title}
                   loading="lazy"
                 />
-                <button
-                  className="youtube-play-btn"
-                  onClick={() => setActiveItem(item)}
-                >
-                  ▶
-                </button>
+                <button className="youtube-play-btn">▶</button>
               </div>
             )}
 
@@ -108,7 +111,10 @@ const Gallery = () => {
       {/* Lightbox */}
       {activeItem && (
         <div className="lightbox" onClick={() => setActiveItem(null)}>
-          <div className="lightbox-content">
+          <div
+            className="lightbox-content"
+            onClick={(e) => e.stopPropagation()}
+          >
             {activeItem.type === "photo" && (
               <img src={activeItem.src} alt={activeItem.title} />
             )}
@@ -123,7 +129,7 @@ const Gallery = () => {
                 title={activeItem.title}
                 frameBorder="0"
                 allowFullScreen
-              ></iframe>
+              />
             )}
 
             <h3>{activeItem.title}</h3>

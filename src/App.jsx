@@ -6,9 +6,8 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Destinations from "./pages/Destinations";
 import Tours from "./pages/Tours";
-import TourDetail from "./pages/TourDetail";
 import Itinerary from "./pages/Itinerary";
-import About from "./pages/About"
+import About from "./pages/About";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 
@@ -21,7 +20,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/destinations" element={<Destinations />} />
         <Route path="/tours" element={<Tours />} />
-        <Route path="/tour/:id" element={<TourDetail />} />
         <Route path="/itinerary/:id" element={<Itinerary />} />
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />

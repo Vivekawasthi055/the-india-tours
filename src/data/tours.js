@@ -1,67 +1,12 @@
-// ===== IMAGE IMPORTS =====
-
-// Golden Triangle
-import goldenMain from "../assets/images/golden-triangle.jpg";
-import golden1 from "../assets/images/golden1.jpg";
-import golden2 from "../assets/images/golden2.jpg";
-import golden3 from "../assets/images/golden3.jpg";
-
-// Jaipur Pushkar
-import jaipurMain from "../assets/images/jaipur-pushkar.jpg";
-import jaipur1 from "../assets/images/jaipur1.jpg";
-import jaipur2 from "../assets/images/jaipur2.jpg";
-import jaipur3 from "../assets/images/jaipur3.jpg";
-
-// Royal Rajasthan
-import rajasthanMain from "../assets/images/royal-rajasthan.jpg";
-import rajasthan1 from "../assets/images/rajasthan1.jpg";
-import rajasthan2 from "../assets/images/rajasthan2.jpg";
-import rajasthan3 from "../assets/images/rajasthan3.jpg";
-
-// Leh Ladakh
-import ladakhMain from "../assets/images/leh-ladakh.jpg";
-import ladakh1 from "../assets/images/ladakh1.jpg";
-import ladakh2 from "../assets/images/ladakh2.jpg";
-import ladakh3 from "../assets/images/ladakh3.jpg";
-
-// Delhi Agra
-import delhiAgraMain from "../assets/images/delhi-agra.jpg";
-import delhi1 from "../assets/images/delhi1.jpg";
-import delhi2 from "../assets/images/delhi2.jpg";
-import delhi3 from "../assets/images/delhi3.jpg";
-
-// Diwali Tour
-import diwaliMain from "../assets/images/diwali-tour.jpg";
-import diwali1 from "../assets/images/diwali1.jpg";
-import diwali2 from "../assets/images/diwali2.jpg";
-import diwali3 from "../assets/images/diwali3.jpg";
-
-// Holi Tour
-import holiMain from "../assets/images/holi-tour.jpg";
-import holi1 from "../assets/images/holi1.jpg";
-import holi2 from "../assets/images/holi2.jpg";
-import holi3 from "../assets/images/holi3.jpg";
-
-// Wedding Tour
-import weddingMain from "../assets/images/royal-wedding.jpg";
-import wedding1 from "../assets/images/wedding1.jpg";
-import wedding2 from "../assets/images/wedding2.jpg";
-import wedding3 from "../assets/images/wedding3.jpg";
-
-// Incredible India Tour
-import incredibleIndiaMain from "../assets/images/incredible-india.jpg";
-import incredibleIndia1 from "../assets/images/incredible1.jpg";
-import incredibleIndia2 from "../assets/images/incredible2.jpg";
-import incredibleIndia3 from "../assets/images/incredible3.jpg";
-
-// ===== TOURS DATA =====
+// ===== IMAGE IMPORTS FROM CLODINARY =====
 
 const tours = [
   {
     id: "golden-triangle",
     titleKey: "toursData.goldenTriangle.title",
     descKey: "toursData.goldenTriangle.desc",
-    image: goldenMain,
+    image:
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766744498/golden-triangle_edpozg.jpg",
     durationKey: "toursData.goldenTriangle.duration",
     itinerary: [
       "goldenTriangle.day1",
@@ -70,14 +15,19 @@ const tours = [
       "goldenTriangle.day4",
       "goldenTriangle.day5",
     ],
-    gallery: [golden1, golden2, golden3],
+    gallery: [
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766744488/golden1_ejvbmm.jpg",
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766744491/golden2_ktwcau.jpg",
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766744495/golden3_uaeadp.jpg",
+    ],
   },
 
   {
     id: "jaipur-pushkar",
     titleKey: "toursData.jaipurPushkar.title",
     descKey: "toursData.jaipurPushkar.desc",
-    image: jaipurMain,
+    image:
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766744600/jaipur-pushkar_ovnu1w.jpg",
     durationKey: "toursData.jaipurPushkar.duration",
     itinerary: [
       "jaipurPushkar.day1",
@@ -85,14 +35,19 @@ const tours = [
       "jaipurPushkar.day3",
       "jaipurPushkar.day4",
     ],
-    gallery: [jaipur1, jaipur2, jaipur3],
+    gallery: [
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766744587/jaipur1_jda59b.jpg",
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766744593/jaipur2_rdm9b6.jpg",
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766744594/jaipur3_qj2e6c.jpg",
+    ],
   },
 
   {
     id: "royal-rajasthan",
     titleKey: "toursData.royalRajasthan.title",
     descKey: "toursData.royalRajasthan.desc",
-    image: rajasthanMain,
+    image:
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766744933/royal-rajasthan_n9rb5y.jpg",
     durationKey: "toursData.royalRajasthan.duration",
     itinerary: [
       "royalRajasthan.day1",
@@ -108,14 +63,19 @@ const tours = [
       "royalRajasthan.day11",
       "royalRajasthan.day12",
     ],
-    gallery: [rajasthan1, rajasthan2, rajasthan3],
+    gallery: [
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766744919/rajasthan1_s4sclu.jpg",
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766744927/rajasthan2_cc5grj.jpg",
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766744923/rajasthan3_v9rxvg.jpg",
+    ],
   },
 
   {
     id: "leh-ladakh",
     titleKey: "toursData.lehLadakh.title",
     descKey: "toursData.lehLadakh.desc",
-    image: ladakhMain,
+    image:
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766745487/leh-ladakh_svpfvp.jpg",
     durationKey: "toursData.lehLadakh.duration",
     itinerary: [
       "lehLadakh.day1",
@@ -124,47 +84,67 @@ const tours = [
       "lehLadakh.day4",
       "lehLadakh.day5",
     ],
-    gallery: [ladakh1, ladakh2, ladakh3],
+    gallery: [
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766745477/ladakh1_aan9in.jpg",
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766745481/ladakh2_jjtawb.jpg",
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766745483/ladakh3_qinwyp.jpg",
+    ],
   },
 
   {
     id: "delhi-agra",
     titleKey: "toursData.delhiAgra.title",
     descKey: "toursData.delhiAgra.desc",
-    image: delhiAgraMain,
+    image:
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766745649/delhi-agra_osn8fa.jpg",
     durationKey: "toursData.delhiAgra.duration",
     itinerary: ["delhiAgra.day1", "delhiAgra.day2", "delhiAgra.day3"],
-    gallery: [delhi1, delhi2, delhi3],
+    gallery: [
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766745633/delhi1_ctzu57.jpg",
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766745637/delhi2_wtbgvo.jpg",
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766745645/delhi3_hcsltr.jpg",
+    ],
   },
 
   {
     id: "diwali-cultural-tour",
     titleKey: "toursData.diwaliCultural.title",
     descKey: "toursData.diwaliCultural.desc",
-    image: diwaliMain,
+    image:
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766745932/diwali-tour_dlbw9x.jpg",
     durationKey: "toursData.diwaliCultural.duration",
     itinerary: [
       "diwaliCultural.day1",
       "diwaliCultural.day2",
       "diwaliCultural.day3",
     ],
-    gallery: [diwali1, diwali2, diwali3],
+    gallery: [
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766745917/diwali1_lefx0l.jpg",
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766745920/diwali2_zcdteg.jpg",
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766745928/diwali3_lusekp.jpg",
+    ],
   },
 
   {
     id: "holi-cultural-tour",
     titleKey: "toursData.holiCultural.title",
     descKey: "toursData.holiCultural.desc",
-    image: holiMain,
+    image:
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766746126/holi-tour_p2wli7.jpg",
     durationKey: "toursData.holiCultural.duration",
     itinerary: ["holiCultural.day1", "holiCultural.day2", "holiCultural.day3"],
-    gallery: [holi1, holi2, holi3],
+    gallery: [
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766746113/holi1_fxst7n.jpg",
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766746116/holi2_cpl1jd.jpg",
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766746123/holi3_mwmgeh.jpg",
+    ],
   },
   {
     id: "royal-indian-wedding-experience",
     titleKey: "toursData.royalWedding.title",
     descKey: "toursData.royalWedding.desc",
-    image: weddingMain,
+    image:
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766746163/royal-wedding_ofsgbp.jpg",
     durationKey: "toursData.royalWedding.duration",
     itinerary: [
       "royalWedding.day1",
@@ -175,13 +155,18 @@ const tours = [
       "royalWedding.day6",
       "royalWedding.day7",
     ],
-    gallery: [wedding1, wedding2, wedding3],
+    gallery: [
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766746170/wedding1_gykmre.jpg",
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766746176/wedding2_leygqg.jpg",
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766746176/wedding3_zaawjd.jpg",
+    ],
   },
   {
     id: "incredible-india-7-days",
     titleKey: "toursData.incredibleIndia.title",
     descKey: "toursData.incredibleIndia.desc",
-    image: incredibleIndiaMain,
+    image:
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766746230/incredible-india_kv1ylq.jpg",
     durationKey: "toursData.incredibleIndia.duration",
     itinerary: [
       "incredibleIndia.day1",
@@ -192,7 +177,11 @@ const tours = [
       "incredibleIndia.day6",
       "incredibleIndia.day7",
     ],
-    gallery: [incredibleIndia1, incredibleIndia2, incredibleIndia3],
+    gallery: [
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766746214/incredible1_tyvllv.jpg",
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766746221/incredible2_ozpmbb.jpg",
+      "https://res.cloudinary.com/dvnu9vblx/image/upload/f_auto,q_auto,c_scale,w_1600/v1766746225/incredible3_iehith.jpg",
+    ],
   },
 ];
 

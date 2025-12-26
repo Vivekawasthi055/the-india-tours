@@ -25,7 +25,7 @@ const Itinerary = () => {
       {/* Image Gallery */}
       <div className="itinerary-gallery">
         {tour.gallery.map((img, index) => (
-          <img key={index} src={img} alt="tour" loading="lazy" />
+          <img key={index} src={img} alt="tour-images" loading="lazy" />
         ))}
       </div>
 
