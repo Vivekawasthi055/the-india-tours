@@ -1,12 +1,12 @@
-import { createContext, useState } from "react";
+import { useState } from "react";
+import { LanguageContext } from "./LanguageContext";
+
 import en from "../i18n/en.json";
 import es from "../i18n/es.json";
 import it from "../i18n/it.json";
 import fr from "../i18n/fr.json";
 import pt from "../i18n/pt.json";
 import ru from "../i18n/ru.json";
-
-export const LanguageContext = createContext();
 
 const languages = {
   en,
@@ -17,7 +17,7 @@ const languages = {
   ru,
 };
 
-export const LanguageProvider = ({ children }) => {
+const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState("en");
 
   const t = (keyPath) => {
@@ -37,3 +37,5 @@ export const LanguageProvider = ({ children }) => {
     </LanguageContext.Provider>
   );
 };
+
+export default LanguageProvider;

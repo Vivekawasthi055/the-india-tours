@@ -9,10 +9,10 @@
 /* TOP SECTION */
 .footer-top {
   display: flex;
-  justify-content: center; /* center the whole block */
-  gap: 120px; /* left-right distance */
-  max-width: 1100px; /* content ko center box me rakhega */
-  margin: 0 auto; /* pure footer ke beech me */
+  justify-content: center;
+  gap: 120px;
+  max-width: 1100px;
+  margin: 0 auto;
   flex-wrap: wrap;
 }
 
@@ -45,6 +45,31 @@
   color: #27b7ff;
 }
 
+/* INSTAGRAM */
+.insta-row {
+  margin-top: 8px;
+}
+
+.insta-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.insta-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-insta-text {
+  color: #fff;
+}
+.insta-username {
+  color: #e1306c;
+}
+
 /* WHATSAPP BUTTON */
 .wsbtn {
   width: 133px;
@@ -75,6 +100,10 @@
 
   .footer-desc {
     margin: auto;
+  }
+
+  .insta-link {
+    justify-content: center;
   }
 
   .wsbtn {

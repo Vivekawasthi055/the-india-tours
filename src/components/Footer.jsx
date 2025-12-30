@@ -18,6 +18,7 @@ const Footer = () => {
         {/* RIGHT */}
         <div className="footer-right">
           <h3>Contact</h3>
+
           <p>
             📞 <strong>{t("contact.phone")}:</strong>{" "}
             <a className="contact-a" href="tel:+919630382854">
@@ -29,12 +30,38 @@ const Footer = () => {
             </a>
           </p>
 
-          <p>
-            ✉️ <strong>{t("contact.emailLabel")}:</strong>{" "}
+          <p className="insta-link">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/732/732200.png"
+              alt="Email"
+              className="insta-icon"
+            />
+            <strong className="footer-insta-text">
+              {t("contact.emailLabel")}:
+            </strong>{" "}
             <a className="contact-a" href="mailto:theindiatours055@gmail.com">
               theindiatours055@gmail.com
             </a>
           </p>
+
+          {/* INSTAGRAM */}
+          <p className="insta-row">
+            <a
+              href="https://www.instagram.com/the_indiatours/"
+              target="_blank"
+              rel="noreferrer"
+              className="insta-link"
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+                alt="Instagram"
+                className="insta-icon"
+              />
+              <strong className="footer-insta-text">Instagram:</strong>
+              <strong className="insta-username">the_indiatours</strong>
+            </a>
+          </p>
+
           <a
             href="https://wa.me/919630382854"
             target="_blank"

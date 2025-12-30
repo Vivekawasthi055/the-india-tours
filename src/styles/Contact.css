@@ -38,8 +38,36 @@
   font-size: 16px;
 }
 
+.contact-details p {
+  margin-bottom: 10px;
+}
+
 .contact-details a {
   text-decoration: none;
+}
+
+/* INSTAGRAM */
+.insta-row {
+  margin-top: 10px;
+}
+
+.insta-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: #000;
+}
+
+.insta-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.contact-insta-text {
+}
+.insta-username {
+  color: #e1306c;
 }
 
 .whatsapp-btn {
@@ -54,7 +82,7 @@
   font-weight: bold;
 }
 
-.logo-contact{
+.logo-contact {
   margin-top: 50px;
   height: 250px;
   width: auto;

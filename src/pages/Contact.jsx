@@ -19,15 +19,38 @@ const Contact = () => {
           <a href="tel:+918827573086">+91 88275 73086</a>
         </p>
 
-        <p>
-          ✉️ <strong>{t("contact.emailLabel")}:</strong>{" "}
+        <p className="insta-link">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/732/732200.png"
+            alt="Email"
+            className="insta-icon"
+          />
+          <strong>{t("contact.emailLabel")}:</strong>
           <a href="mailto:theindiatours055@gmail.com">
             theindiatours055@gmail.com
           </a>
         </p>
+
+        {/* INSTAGRAM */}
+        <p className="insta-row">
+          <a
+            href="https://www.instagram.com/the_indiatours/"
+            target="_blank"
+            rel="noreferrer"
+            className="insta-link"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+              alt="Instagram"
+              className="insta-icon"
+            />
+            <strong className="contact-insta-text">Instagram:</strong>
+            <strong className="insta-username"> the_indiatours</strong>
+          </a>
+        </p>
       </div>
 
-      {/* WHATSAPP BUTTON (EMAIL KE NEECHE, FORM KE UPAR) */}
+      {/* WHATSAPP BUTTON */}
       <a
         href="https://wa.me/919630382854"
         target="_blank"
