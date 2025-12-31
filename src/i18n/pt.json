@@ -170,7 +170,8 @@
     "whatsapp": "Número do WhatsApp",
     "sameWhatsapp": "Seu número de telefone é o mesmo do WhatsApp?",
     "sameWhatsappyes": "Sim",
-    "sameWhatsappno": "Não"
+    "sameWhatsappno": "Não",
+    "sending": "Enviando..."
   },
 
   "footer": {

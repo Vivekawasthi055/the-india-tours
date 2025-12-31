@@ -161,7 +161,8 @@
     "whatsapp": "Номер WhatsApp",
     "sameWhatsapp": "Ваш номер телефона совпадает с номером WhatsApp?",
     "sameWhatsappyes": "Да",
-    "sameWhatsappno": "Нет"
+    "sameWhatsappno": "Нет",
+    "sending": "Отправка..."
   },
 
   "footer": {

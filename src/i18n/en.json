@@ -153,8 +153,9 @@
     "whatsapp": "WhatsApp Number",
     "sameWhatsapp": "Is your phone number and WhatsApp number the same?",
     "sameWhatsappyes": "Yes",
-    "sameWhatsappno": "No"
-  },
+    "sameWhatsappno": "No",
+    "sending": "Sending..."
+    },
   "footer": { "text": "Explore India | Travel With Trust" },
 
   "goldenTriangle": {

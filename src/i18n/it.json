@@ -154,7 +154,8 @@
     "whatsapp": "Numero WhatsApp",
     "sameWhatsapp": "Il tuo numero di telefono è lo stesso di WhatsApp?",
     "sameWhatsappyes": "Sì",
-    "sameWhatsappno": "No"
+    "sameWhatsappno": "No",
+    "sending": "Invio in corso..."
   },
   "footer": { "text": "Esplora l'India | Viaggia con Fiducia" },
 

@@ -6,10 +6,15 @@ import "../styles/Contact.css";
 const Contact = () => {
   const { t } = useContext(LanguageContext);
   const [sameWhatsapp, setSameWhatsapp] = useState("yes");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [popupMessage, setPopupMessage] = useState("");
+  const [popupType, setPopupType] = useState("success");
+  const [showPopup, setShowPopup] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = e.target;
+    setIsSubmitting(true);
 
     // 1️⃣ ADMIN EMAIL
     emailjs.sendForm(
@@ -28,12 +33,19 @@ const Contact = () => {
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(() => {
-        alert(t("contact.success"));
+        setPopupType("success");
+        setPopupMessage(t("contact.success"));
+        setShowPopup(true);
         form.reset();
         setSameWhatsapp("yes");
       })
       .catch(() => {
-        alert(t("contact.error"));
+        setPopupType("error");
+        setPopupMessage(t("contact.error"));
+        setShowPopup(true);
+      })
+      .finally(() => {
+        setIsSubmitting(false);
       });
   };
 
@@ -42,7 +54,7 @@ const Contact = () => {
       <h1>{t("contact.title")}</h1>
       <p className="contact-sub">{t("contact.subtitle")}</p>
 
-      {/* CONTACT DETAILS (UNCHANGED) */}
+      {/* CONTACT DETAILS */}
       <div className="contact-details">
         <p>
           📞 <strong>{t("contact.phone")}:</strong>{" "}
@@ -81,7 +93,7 @@ const Contact = () => {
         </p>
       </div>
 
-      {/* WHATSAPP BUTTON (UNCHANGED) */}
+      {/* WHATSAPP BUTTON */}
       <a
         href="https://wa.me/919630382854"
         target="_blank"
@@ -91,7 +103,7 @@ const Contact = () => {
         {t("contact.whatsappbtn")}
       </a>
 
-      {/* UPDATED CONTACT FORM */}
+      {/* CONTACT FORM */}
       <form className="contact-form" onSubmit={handleSubmit}>
         <input
           type="text"
@@ -115,7 +127,7 @@ const Contact = () => {
         />
 
         {/* WhatsApp same option */}
-        <div>
+        <div className="whatsapp-option">
           <label>{t("contact.sameWhatsapp")}</label>
           <br />
           <label>
@@ -163,7 +175,9 @@ const Contact = () => {
           required
         ></textarea>
 
-        <button type="submit">{t("contact.send")}</button>
+        <button type="submit" disabled={isSubmitting}>
+          {isSubmitting ? t("contact.sending") : t("contact.send")}
+        </button>
       </form>
 
       <div>
@@ -173,6 +187,16 @@ const Contact = () => {
           className="logo-contact"
         />
       </div>
+
+      {/* SUCCESS/ERROR POPUP */}
+      {showPopup && (
+        <div className={`popup ${popupType}`}>
+          <span className="popup-close" onClick={() => setShowPopup(false)}>
+            &times;
+          </span>
+          <p>{popupMessage}</p>
+        </div>
+      )}
     </div>
   );
 };
