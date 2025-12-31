@@ -68,7 +68,7 @@ const Footer = () => {
             rel="noreferrer"
             className="wsbtn whatsapp-btn"
           >
-            {t("contact.whatsapp")}
+            {t("contact.whatsappbtn")}
           </a>
         </div>
       </div>

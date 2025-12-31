@@ -147,15 +147,21 @@
 
   "contact": {
     "title": "Свяжитесь с нами",
-    "subtitle": "Спланируйте идеальный тур по Индии вместе с нами",
-    "name": "Ваше имя",
-    "email": "Ваш email",
+    "subtitle": "Спланируйте идеальное путешествие по Индии с нами",
+    "fullName": "Полное Имя",
+    "email": "Адрес Электронной Почты",
+    "phone": "Номер Телефона",
     "country": "Страна",
-    "message": "Ваше сообщение",
-    "send": "Отправить запрос",
-    "whatsapp": "Написать в WhatsApp",
-    "phone": "Телефон",
-    "emailLabel": "Email"
+    "message": "Ваше Сообщение",
+    "send": "Отправить Запрос",
+    "success": "Спасибо! Ваше сообщение успешно отправлено.",
+    "error": "Произошла ошибка. Пожалуйста, попробуйте снова.",
+    "whatsappbtn": "Написать в WhatsApp",
+    "emailLabel": "Email",
+    "whatsapp": "Номер WhatsApp",
+    "sameWhatsapp": "Ваш номер телефона совпадает с номером WhatsApp?",
+    "sameWhatsappyes": "Да",
+    "sameWhatsappno": "Нет"
   },
 
   "footer": {

@@ -23,7 +23,7 @@ const Tours = () => {
             rel="noopener noreferrer"
             className="whatsapp-btn"
           >
-            {t("contact.whatsapp")}
+            {t("contact.whatsappbtn")}
           </a>
         </div>
       </div>

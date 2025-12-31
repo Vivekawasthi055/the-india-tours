@@ -1,16 +1,48 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
+import emailjs from "emailjs-com";
 import { LanguageContext } from "../context/LanguageContext";
 import "../styles/Contact.css";
 
 const Contact = () => {
   const { t } = useContext(LanguageContext);
+  const [sameWhatsapp, setSameWhatsapp] = useState("yes");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+
+    // 1️⃣ ADMIN EMAIL
+    emailjs.sendForm(
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_EMAILJS_ADMIN_TEMPLATE,
+      form,
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+    );
+
+    // 2️⃣ AUTO-REPLY TO USER
+    emailjs
+      .sendForm(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_AUTOREPLY_TEMPLATE,
+        form,
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      )
+      .then(() => {
+        alert(t("contact.success"));
+        form.reset();
+        setSameWhatsapp("yes");
+      })
+      .catch(() => {
+        alert(t("contact.error"));
+      });
+  };
 
   return (
     <div className="contact">
       <h1>{t("contact.title")}</h1>
       <p className="contact-sub">{t("contact.subtitle")}</p>
 
-      {/* CONTACT DETAILS */}
+      {/* CONTACT DETAILS (UNCHANGED) */}
       <div className="contact-details">
         <p>
           📞 <strong>{t("contact.phone")}:</strong>{" "}
@@ -31,7 +63,6 @@ const Contact = () => {
           </a>
         </p>
 
-        {/* INSTAGRAM */}
         <p className="insta-row">
           <a
             href="https://www.instagram.com/the_indiatours/"
@@ -44,28 +75,93 @@ const Contact = () => {
               alt="Instagram"
               className="insta-icon"
             />
-            <strong className="contact-insta-text">Instagram:</strong>
+            <strong>Instagram:</strong>
             <strong className="insta-username"> the_indiatours</strong>
           </a>
         </p>
       </div>
 
-      {/* WHATSAPP BUTTON */}
+      {/* WHATSAPP BUTTON (UNCHANGED) */}
       <a
         href="https://wa.me/919630382854"
         target="_blank"
         rel="noreferrer"
         className="whatsapp-btn"
       >
-        {t("contact.whatsapp")}
+        {t("contact.whatsappbtn")}
       </a>
 
-      {/* CONTACT FORM */}
-      <form className="contact-form">
-        <input type="text" placeholder={t("contact.name")} />
-        <input type="email" placeholder={t("contact.email")} />
-        <input type="text" placeholder={t("contact.country")} />
-        <textarea placeholder={t("contact.message")}></textarea>
+      {/* UPDATED CONTACT FORM */}
+      <form className="contact-form" onSubmit={handleSubmit}>
+        <input
+          type="text"
+          name="full_name"
+          placeholder={t("contact.fullName")}
+          required
+        />
+
+        <input
+          type="email"
+          name="email"
+          placeholder={t("contact.email")}
+          required
+        />
+
+        <input
+          type="tel"
+          name="phone"
+          placeholder={t("contact.phone")}
+          required
+        />
+
+        {/* WhatsApp same option */}
+        <div>
+          <label>{t("contact.sameWhatsapp")}</label>
+          <br />
+          <label>
+            <input
+              type="radio"
+              name="same_whatsapp"
+              value="yes"
+              checked={sameWhatsapp === "yes"}
+              onChange={() => setSameWhatsapp("yes")}
+            />{" "}
+            {t("contact.sameWhatsappyes")}
+          </label>
+          &nbsp;&nbsp;
+          <label>
+            <input
+              type="radio"
+              name="same_whatsapp"
+              value="no"
+              checked={sameWhatsapp === "no"}
+              onChange={() => setSameWhatsapp("no")}
+            />{" "}
+            {t("contact.sameWhatsappno")}
+          </label>
+        </div>
+
+        {sameWhatsapp === "no" && (
+          <input
+            type="tel"
+            name="whatsapp"
+            placeholder={t("contact.whatsapp")}
+            required
+          />
+        )}
+
+        <input
+          type="text"
+          name="country"
+          placeholder={t("contact.country")}
+          required
+        />
+
+        <textarea
+          name="message"
+          placeholder={t("contact.message")}
+          required
+        ></textarea>
 
         <button type="submit">{t("contact.send")}</button>
       </form>

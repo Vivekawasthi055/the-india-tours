@@ -140,15 +140,21 @@
   },
   "contact": {
     "title": "Contattaci",
-    "subtitle": "Pianifica il tuo tour perfetto in India",
-    "name": "Il tuo nome",
-    "email": "La tua email",
+    "subtitle": "Pianifica il tuo tour perfetto in India con noi",
+    "fullName": "Nome Completo",
+    "email": "Indirizzo Email",
+    "phone": "Numero di Telefono",
     "country": "Paese",
-    "message": "Il tuo messaggio",
+    "message": "Il Tuo Messaggio",
     "send": "Invia Richiesta",
-    "whatsapp": "Chatta su WhatsApp",
-    "phone": "Telefono",
-    "emailLabel": "Email"
+    "success": "Grazie! Il tuo messaggio è stato inviato con successo.",
+    "error": "Qualcosa è andato storto. Riprova.",
+    "whatsappbtn": "Chatta su WhatsApp",
+    "emailLabel": "Email",
+    "whatsapp": "Numero WhatsApp",
+    "sameWhatsapp": "Il tuo numero di telefono è lo stesso di WhatsApp?",
+    "sameWhatsappyes": "Sì",
+    "sameWhatsappno": "No"
   },
   "footer": { "text": "Esplora l'India | Viaggia con Fiducia" },
 

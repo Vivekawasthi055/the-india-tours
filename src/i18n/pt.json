@@ -155,16 +155,22 @@
   },
 
   "contact": {
-    "title": "Entre em Contato",
+    "title": "Fale Conosco",
     "subtitle": "Planeje sua viagem perfeita pela Índia conosco",
-    "name": "Seu Nome",
-    "email": "Seu Email",
+    "fullName": "Nome Completo",
+    "email": "Endereço de Email",
+    "phone": "Número de Telefone",
     "country": "País",
     "message": "Sua Mensagem",
     "send": "Enviar Consulta",
-    "whatsapp": "Conversar no WhatsApp",
-    "phone": "Telefone",
-    "emailLabel": "Email"
+    "success": "Obrigado! Sua mensagem foi enviada com sucesso.",
+    "error": "Algo deu errado. Por favor, tente novamente.",
+    "whatsappbtn": "Conversar no WhatsApp",
+    "emailLabel": "Email",
+    "whatsapp": "Número do WhatsApp",
+    "sameWhatsapp": "Seu número de telefone é o mesmo do WhatsApp?",
+    "sameWhatsappyes": "Sim",
+    "sameWhatsappno": "Não"
   },
 
   "footer": {

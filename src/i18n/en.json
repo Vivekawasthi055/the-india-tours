@@ -140,14 +140,20 @@
   "contact": {
     "title": "Contact Us",
     "subtitle": "Plan your perfect India tour with us",
-    "name": "Your Name",
-    "email": "Your Email",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
     "country": "Country",
     "message": "Your Message",
     "send": "Send Inquiry",
-    "whatsapp": "Chat on WhatsApp",
-    "phone": "Phone",
-    "emailLabel": "Email"
+    "success": "Thank you! Your message has been sent successfully.",
+    "error": "Something went wrong. Please try again.",
+    "whatsappbtn": "Chat on WhatsApp",
+    "emailLabel": "Email",
+    "whatsapp": "WhatsApp Number",
+    "sameWhatsapp": "Is your phone number and WhatsApp number the same?",
+    "sameWhatsappyes": "Yes",
+    "sameWhatsappno": "No"
   },
   "footer": { "text": "Explore India | Travel With Trust" },
 
