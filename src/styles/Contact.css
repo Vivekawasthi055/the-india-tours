@@ -88,7 +88,22 @@
   width: auto;
 }
 
-/* Existing CSS remain unchanged... */
+/* Disabled state for form while popup visible */
+.contact.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* POPUP OVERLAY */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 9998;
+}
 
 /* POPUP MODAL */
 .popup {
@@ -105,6 +120,7 @@
   text-align: center;
   font-size: 16px;
   color: #333;
+  pointer-events: auto;
 }
 
 .popup.success {
