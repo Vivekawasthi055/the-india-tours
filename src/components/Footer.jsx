@@ -25,8 +25,8 @@ const Footer = () => {
               +91 96303 82854
             </a>
             ,{" "}
-            <a className="contact-a" href="tel:+33783236654">
-              +33 783236654
+            <a className="contact-a" href="tel:+918827573086">
+              +91 88275 73086
             </a>
           </p>
 
